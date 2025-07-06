@@ -1,0 +1,44 @@
+
+[2025-07-06 21:59:01.990661][ERROR]Email error: 'charmap' codec can't encode character '\u2705' in position 9200: character maps to <undefined>
+[2025-07-06 21:59:01.997743][ERROR]Error type: UnicodeEncodeError
+[2025-07-06 21:59:44.980029][ERROR]Failed to create contact: {"detail":[{"type":"missing","loc":["body","email"],"msg":"Field required","input":{"name":"Fang"}}]}
+[2025-07-06 21:59:45.023146][ERROR]Email error: 'charmap' codec can't encode character '\u274c' in position 2365: character maps to <undefined>
+[2025-07-06 21:59:45.030895][ERROR]Error type: UnicodeEncodeError
+[2025-07-06 21:59:45.079938][ERROR]Email error: 'charmap' codec can't encode character '\u274c' in position 458: character maps to <undefined>
+[2025-07-06 21:59:45.088039][ERROR]Error type: UnicodeEncodeError
+[2025-07-06 22:01:25.068825][ERROR]Failed to create contact: {"detail":[{"type":"missing","loc":["body","email"],"msg":"Field required","input":{"name":"Fang"}}]}
+[2025-07-06 22:01:27.252076][ERROR]Email error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3b47030bd4dsm7813282f8f.7 - gsmtp')
+[2025-07-06 22:01:27.263516][ERROR]Error type: SMTPAuthenticationError
+[2025-07-06 22:01:29.204577][ERROR]Email error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3b47225a409sm7958152f8f.70 - gsmtp')
+[2025-07-06 22:01:29.220077][ERROR]Error type: SMTPAuthenticationError
+[2025-07-06 22:02:28.147591][ERROR]Email error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-454b1685499sm86608905e9.22 - gsmtp')
+[2025-07-06 22:02:28.158420][ERROR]Error type: SMTPAuthenticationError
+[2025-07-06 22:02:30.193491][ERROR]Email error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-454b161f481sm86999285e9.2 - gsmtp')
+[2025-07-06 22:02:30.204934][ERROR]Error type: SMTPAuthenticationError
+[2025-07-06 22:04:59.742648][ERROR]Email error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-454b16a3799sm86646775e9.35 - gsmtp')
+[2025-07-06 22:04:59.754407][ERROR]Error type: SMTPAuthenticationError
+[2025-07-06 22:08:01.613798][ERROR]Email error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-454a997e367sm114625105e9.15 - gsmtp')
+[2025-07-06 22:08:01.624167][ERROR]Error type: SMTPAuthenticationError
+[2025-07-06 22:15:09.246242][ERROR]Email error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3b47040161bsm7905651f8f.4 - gsmtp')
+[2025-07-06 22:15:09.260070][ERROR]Error type: SMTPAuthenticationError
+[2025-07-06 22:19:33.219616][ERROR]Email error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-454c2bf5a86sm21819705e9.3 - gsmtp')
+[2025-07-06 22:19:33.230221][ERROR]Error type: SMTPAuthenticationError
+[2025-07-06 22:21:21.092900][ERROR]Email error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-454a9beb2b2sm113828825e9.35 - gsmtp')
+[2025-07-06 22:21:21.110976][ERROR]Error type: SMTPAuthenticationError
+[2025-07-06 22:26:02.374865][ERROR]Email error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-454b1890626sm89746675e9.40 - gsmtp')
+[2025-07-06 22:26:02.390581][ERROR]Error type: SMTPAuthenticationError
+[2025-07-06 22:26:52.155826][ERROR]Email error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-454b1699162sm88867205e9.31 - gsmtp')
+[2025-07-06 22:26:52.168477][ERROR]Error type: SMTPAuthenticationError
+[2025-07-06 22:33:38.507953][ERROR]Email error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-454b188df09sm86564195e9.37 - gsmtp')
+[2025-07-06 22:33:38.521594][ERROR]Error type: SMTPAuthenticationError
+[2025-07-06 22:36:50.716812][ERROR]Email error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3b47285c6c9sm7908336f8f.89 - gsmtp')
+[2025-07-06 22:36:50.729504][ERROR]Error type: SMTPAuthenticationError
+[2025-07-06 22:42:32.048435][ERROR]Email error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-454a998a731sm115973405e9.17 - gsmtp')
+[2025-07-06 22:42:32.060210][ERROR]Error type: SMTPAuthenticationError
+[2025-07-06 22:45:34.381970][ERROR]Email error: Connection unexpectedly closed
+[2025-07-06 22:45:34.394607][ERROR]Error type: SMTPServerDisconnected
+[2025-07-06 23:06:59.327027][ERROR]GROQ API error: Error code: 503 - {'error': {'message': 'llama-3.3-70b-versatile is currently over capacity. Please try again and back off exponentially. Visit https://groqstatus.com/ to see if there is an active incident.', 'type': 'internal_server_error'}}
+[2025-07-06 23:06:59.351384][ERROR]Error in decompose_query: Error code: 503 - {'error': {'message': 'llama-3.3-70b-versatile is currently over capacity. Please try again and back off exponentially. Visit https://groqstatus.com/ to see if there is an active incident.', 'type': 'internal_server_error'}}
+[2025-07-07 01:29:37.593911][ERROR]GROQ API error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jz7hfpbffv0r6mq6n7sff3pa` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98931, Requested 1852. Please try again in 11m16.402s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[2025-07-07 02:10:03.607739][ERROR]GROQ API error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jz7hfpbffv0r6mq6n7sff3pa` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 100231, Requested 524. Please try again in 10m53.039s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[2025-07-07 02:10:03.623940][ERROR]Error in decompose_query: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jz7hfpbffv0r6mq6n7sff3pa` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 100231, Requested 524. Please try again in 10m53.039s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}

@@ -1,0 +1,2095 @@
+
+[2025-07-06 22:02:28.220044][INFO]Connecting to SMTP server...
+[2025-07-06 22:02:28.618636][INFO]Starting TLS...
+[2025-07-06 22:02:29.031315][INFO]Logging in to SMTP...
+[2025-07-06 22:02:30.215383][INFO]Summary notification sent successfully
+[2025-07-06 22:02:30.225268][INFO]Query processing completed successfully
+[2025-07-06 22:02:30.237133][INFO]Agent process completed successfully
+[2025-07-06 22:04:31.962513][INFO]CRM AI Agent Server shutting down
+[2025-07-06 22:04:34.181548][INFO]CRM AI Agent Server starting up
+[2025-07-06 22:04:34.191595][INFO]All routers included successfully
+[2025-07-06 22:04:34.203769][INFO]CORS middleware configured
+[2025-07-06 22:04:54.882275][INFO]Received agent process request: show contact name fang
+[2025-07-06 22:04:54.898939][INFO]User email: None
+[2025-07-06 22:04:54.907551][INFO]Processing query: show contact name fang
+[2025-07-06 22:04:54.920531][INFO]User email: None
+[2025-07-06 22:04:54.931084][INFO]Decomposing query: show contact name fang
+[2025-07-06 22:04:54.941247][INFO]Created query prompt
+[2025-07-06 22:04:54.963578][INFO]Sending request to GROQ API
+[2025-07-06 22:04:54.981635][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:04:54.994478][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 22:04:56.184201][INFO]Raw LLM Response received
+[2025-07-06 22:04:56.193255][INFO]Response length: 227 characters
+[2025-07-06 22:04:56.204459][INFO]Received response from GROQ API
+[2025-07-06 22:04:56.214814][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "fang"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 22:04:56.224287][INFO]Created 1 tasks from query decomposition
+[2025-07-06 22:04:56.236331][INFO]Decomposed query tasks: 1
+[2025-07-06 22:04:56.248281][INFO]Requires sequential execution: False
+[2025-07-06 22:04:56.257524][INFO]Executing tasks in parallel
+[2025-07-06 22:04:56.270717][INFO]Executing task: get_contact
+[2025-07-06 22:04:56.284936][INFO]Getting contact
+[2025-07-06 22:04:56.302966][INFO]Checking For Valid Token
+[2025-07-06 22:04:56.819497][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:04:56.830331][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:04:57.202454][INFO]Raw LLM Response received
+[2025-07-06 22:04:57.215578][INFO]Response length: 12 characters
+[2025-07-06 22:04:57.226618][INFO]Checking For Valid Token
+[2025-07-06 22:04:57.777468][INFO]Task execution completed. Results: 1
+[2025-07-06 22:04:57.787685][INFO]Sending summary notification to: taha@synapse-consulting.com.pk
+[2025-07-06 22:04:57.798517][INFO]Attempting to send email to: taha@synapse-consulting.com.pk
+[2025-07-06 22:04:57.808042][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 22:04:57.819119][INFO]SMTP Server: smtp.gmail.com:587
+[2025-07-06 22:04:57.828832][INFO]Email subject: ✅ Operation Completed Successfully
+[2025-07-06 22:04:57.842179][INFO]Connecting to SMTP server...
+[2025-07-06 22:04:58.282857][INFO]Starting TLS...
+[2025-07-06 22:04:58.685488][INFO]Logging in to SMTP...
+[2025-07-06 22:04:59.755850][INFO]Summary notification sent successfully
+[2025-07-06 22:04:59.764972][INFO]Query processing completed successfully
+[2025-07-06 22:04:59.773826][INFO]Agent process completed successfully
+[2025-07-06 22:06:06.154858][INFO]Received agent process request: show contact name fang
+[2025-07-06 22:06:06.176551][INFO]User email: None
+[2025-07-06 22:06:06.188739][INFO]Processing query: show contact name fang
+[2025-07-06 22:06:06.207845][INFO]User email: None
+[2025-07-06 22:06:06.226861][INFO]Decomposing query: show contact name fang
+[2025-07-06 22:06:06.238896][INFO]Created query prompt
+[2025-07-06 22:06:06.256280][INFO]Sending request to GROQ API
+[2025-07-06 22:06:06.274072][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:06:06.291116][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 22:06:07.122452][INFO]Raw LLM Response received
+[2025-07-06 22:06:07.132220][INFO]Response length: 227 characters
+[2025-07-06 22:06:07.146530][INFO]Received response from GROQ API
+[2025-07-06 22:06:07.161060][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "fang"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 22:06:07.177227][INFO]Created 1 tasks from query decomposition
+[2025-07-06 22:06:07.190326][INFO]Decomposed query tasks: 1
+[2025-07-06 22:06:07.202606][INFO]Requires sequential execution: False
+[2025-07-06 22:06:07.211470][INFO]Executing tasks in parallel
+[2025-07-06 22:06:07.222096][INFO]Executing task: get_contact
+[2025-07-06 22:06:07.235616][INFO]Getting contact
+[2025-07-06 22:06:07.247222][INFO]Checking For Valid Token
+[2025-07-06 22:06:09.474179][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:06:09.487740][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:06:12.829075][INFO]Raw LLM Response received
+[2025-07-06 22:06:12.851040][INFO]Response length: 12 characters
+[2025-07-06 22:06:43.467022][INFO]CRM AI Agent Server starting up
+[2025-07-06 22:06:43.489409][INFO]All routers included successfully
+[2025-07-06 22:06:43.503888][INFO]CORS middleware configured
+[2025-07-06 22:07:45.124946][INFO]Received agent process request: show contact name fang
+[2025-07-06 22:07:45.142609][INFO]User email: None
+[2025-07-06 22:07:45.153782][INFO]Processing query: show contact name fang
+[2025-07-06 22:07:45.162381][INFO]User email: None
+[2025-07-06 22:07:45.182469][INFO]Decomposing query: show contact name fang
+[2025-07-06 22:07:45.194981][INFO]Created query prompt
+[2025-07-06 22:07:45.207671][INFO]Sending request to GROQ API
+[2025-07-06 22:07:45.222097][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:07:45.233717][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 22:07:54.796311][INFO]Raw LLM Response received
+[2025-07-06 22:07:54.810889][INFO]Response length: 227 characters
+[2025-07-06 22:07:54.822612][INFO]Received response from GROQ API
+[2025-07-06 22:07:54.833564][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "fang"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 22:07:54.846880][INFO]Created 1 tasks from query decomposition
+[2025-07-06 22:07:54.859600][INFO]Decomposed query tasks: 1
+[2025-07-06 22:07:54.872624][INFO]Requires sequential execution: False
+[2025-07-06 22:07:54.887136][INFO]Executing tasks in parallel
+[2025-07-06 22:07:54.903682][INFO]Executing task: get_contact
+[2025-07-06 22:07:54.922251][INFO]Getting contact
+[2025-07-06 22:07:54.940738][INFO]Checking For Valid Token
+[2025-07-06 22:07:55.479643][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:07:55.490476][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:07:59.061489][INFO]Raw LLM Response received
+[2025-07-06 22:07:59.070488][INFO]Response length: 12 characters
+[2025-07-06 22:07:59.082395][INFO]Checking For Valid Token
+[2025-07-06 22:07:59.594190][INFO]Task execution completed. Results: 1
+[2025-07-06 22:07:59.607438][INFO]Sending summary notification to: taha@synapse-consulting.com.pk
+[2025-07-06 22:07:59.621980][INFO]Attempting to send email to: taha@synapse-consulting.com.pk
+[2025-07-06 22:07:59.634045][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 22:07:59.646545][INFO]SMTP Server: smtp.gmail.com:587
+[2025-07-06 22:07:59.657757][INFO]Email subject: ✅ Operation Completed Successfully
+[2025-07-06 22:07:59.668671][INFO]Connecting to SMTP server...
+[2025-07-06 22:08:00.099959][INFO]Starting TLS...
+[2025-07-06 22:08:00.497727][INFO]Logging in to SMTP...
+[2025-07-06 22:08:01.633212][INFO]Summary notification sent successfully
+[2025-07-06 22:08:01.640905][INFO]Query processing completed successfully
+[2025-07-06 22:08:01.651193][INFO]Agent process completed successfully
+[2025-07-06 22:15:04.460091][INFO]Received agent process request: show contact name fang
+[2025-07-06 22:15:04.475972][INFO]User email: None
+[2025-07-06 22:15:04.492040][INFO]Processing query: show contact name fang
+[2025-07-06 22:15:04.507277][INFO]User email: None
+[2025-07-06 22:15:04.521788][INFO]Decomposing query: show contact name fang
+[2025-07-06 22:15:04.532799][INFO]Created query prompt
+[2025-07-06 22:15:04.547711][INFO]Sending request to GROQ API
+[2025-07-06 22:15:04.560816][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:15:04.575253][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 22:15:05.531943][INFO]Raw LLM Response received
+[2025-07-06 22:15:05.544678][INFO]Response length: 227 characters
+[2025-07-06 22:15:05.558039][INFO]Received response from GROQ API
+[2025-07-06 22:15:05.569283][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "fang"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 22:15:05.581925][INFO]Created 1 tasks from query decomposition
+[2025-07-06 22:15:05.593923][INFO]Decomposed query tasks: 1
+[2025-07-06 22:15:05.608794][INFO]Requires sequential execution: False
+[2025-07-06 22:15:05.620002][INFO]Executing tasks in parallel
+[2025-07-06 22:15:05.633557][INFO]Executing task: get_contact
+[2025-07-06 22:15:05.649338][INFO]Getting contact
+[2025-07-06 22:15:05.668889][INFO]Checking For Valid Token
+[2025-07-06 22:15:06.260881][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:15:06.276500][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:15:06.666929][INFO]Raw LLM Response received
+[2025-07-06 22:15:06.680589][INFO]Response length: 12 characters
+[2025-07-06 22:15:06.697196][INFO]Checking For Valid Token
+[2025-07-06 22:15:07.231004][INFO]Task execution completed. Results: 1
+[2025-07-06 22:15:07.241197][INFO]Sending summary notification to: taha@synapse-consulting.com.pk
+[2025-07-06 22:15:07.253289][INFO]Attempting to send email to: taha@synapse-consulting.com.pk
+[2025-07-06 22:15:07.265153][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 22:15:07.276872][INFO]SMTP Server: smtp.gmail.com:587
+[2025-07-06 22:15:07.287612][INFO]Email subject: ✅ Operation Completed Successfully
+[2025-07-06 22:15:07.296906][INFO]Connecting to SMTP server...
+[2025-07-06 22:15:07.732865][INFO]Starting TLS...
+[2025-07-06 22:15:08.150294][INFO]Logging in to SMTP...
+[2025-07-06 22:15:09.270167][INFO]Summary notification sent successfully
+[2025-07-06 22:15:09.283694][INFO]Query processing completed successfully
+[2025-07-06 22:15:09.297851][INFO]Agent process completed successfully
+[2025-07-06 22:19:28.085067][INFO]Received agent process request: show contact name fang
+[2025-07-06 22:19:28.110651][INFO]User email: None
+[2025-07-06 22:19:28.134226][INFO]Processing query: show contact name fang
+[2025-07-06 22:19:28.153779][INFO]User email: None
+[2025-07-06 22:19:28.168282][INFO]Decomposing query: show contact name fang
+[2025-07-06 22:19:28.177941][INFO]Created query prompt
+[2025-07-06 22:19:28.187915][INFO]Sending request to GROQ API
+[2025-07-06 22:19:28.205044][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:19:28.217268][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 22:19:29.174661][INFO]Raw LLM Response received
+[2025-07-06 22:19:29.183363][INFO]Response length: 227 characters
+[2025-07-06 22:19:29.193030][INFO]Received response from GROQ API
+[2025-07-06 22:19:29.201662][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "fang"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 22:19:29.210660][INFO]Created 1 tasks from query decomposition
+[2025-07-06 22:19:29.221709][INFO]Decomposed query tasks: 1
+[2025-07-06 22:19:29.236026][INFO]Requires sequential execution: False
+[2025-07-06 22:19:29.250005][INFO]Executing tasks in parallel
+[2025-07-06 22:19:29.264147][INFO]Executing task: get_contact
+[2025-07-06 22:19:29.279108][INFO]Getting contact
+[2025-07-06 22:19:29.295675][INFO]Checking For Valid Token
+[2025-07-06 22:19:29.905253][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:19:29.919532][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:19:30.313969][INFO]Raw LLM Response received
+[2025-07-06 22:19:30.324445][INFO]Response length: 12 characters
+[2025-07-06 22:19:30.336440][INFO]Checking For Valid Token
+[2025-07-06 22:19:31.206839][INFO]Task execution completed. Results: 1
+[2025-07-06 22:19:31.216801][INFO]Sending summary notification to: taha@synapse-consulting.com.pk
+[2025-07-06 22:19:31.225393][INFO]Attempting to send email to: taha@synapse-consulting.com.pk
+[2025-07-06 22:19:31.238417][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 22:19:31.253416][INFO]SMTP Server: smtp.gmail.com:587
+[2025-07-06 22:19:31.265954][INFO]Email subject: ✅ Operation Completed Successfully
+[2025-07-06 22:19:31.277737][INFO]Connecting to SMTP server...
+[2025-07-06 22:19:31.702599][INFO]Starting TLS...
+[2025-07-06 22:19:32.113068][INFO]Logging in to SMTP...
+[2025-07-06 22:19:33.238136][INFO]Summary notification sent successfully
+[2025-07-06 22:19:33.250460][INFO]Query processing completed successfully
+[2025-07-06 22:19:33.261759][INFO]Agent process completed successfully
+[2025-07-06 22:21:16.482537][INFO]Received agent process request: show contact name fang
+[2025-07-06 22:21:16.496677][INFO]User email: None
+[2025-07-06 22:21:16.507105][INFO]Processing query: show contact name fang
+[2025-07-06 22:21:16.519746][INFO]User email: None
+[2025-07-06 22:21:16.530457][INFO]Decomposing query: show contact name fang
+[2025-07-06 22:21:16.541091][INFO]Created query prompt
+[2025-07-06 22:21:16.552091][INFO]Sending request to GROQ API
+[2025-07-06 22:21:16.568001][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:21:16.578775][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 22:21:17.492641][INFO]Raw LLM Response received
+[2025-07-06 22:21:17.502472][INFO]Response length: 227 characters
+[2025-07-06 22:21:17.512770][INFO]Received response from GROQ API
+[2025-07-06 22:21:17.521811][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "fang"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 22:21:17.533401][INFO]Created 1 tasks from query decomposition
+[2025-07-06 22:21:17.542641][INFO]Decomposed query tasks: 1
+[2025-07-06 22:21:17.552197][INFO]Requires sequential execution: False
+[2025-07-06 22:21:17.563187][INFO]Executing tasks in parallel
+[2025-07-06 22:21:17.572168][INFO]Executing task: get_contact
+[2025-07-06 22:21:17.582948][INFO]Getting contact
+[2025-07-06 22:21:17.598290][INFO]Checking For Valid Token
+[2025-07-06 22:21:18.173282][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:21:18.185163][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:21:18.557778][INFO]Raw LLM Response received
+[2025-07-06 22:21:18.566888][INFO]Response length: 12 characters
+[2025-07-06 22:21:18.577924][INFO]Checking For Valid Token
+[2025-07-06 22:21:19.086297][INFO]Task execution completed. Results: 1
+[2025-07-06 22:21:19.096070][INFO]Sending summary notification to: taha@synapse-consulting.com.pk
+[2025-07-06 22:21:19.104631][INFO]Attempting to send email to: taha@synapse-consulting.com.pk
+[2025-07-06 22:21:19.115065][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 22:21:19.124869][INFO]SMTP Server: smtp.gmail.com:587
+[2025-07-06 22:21:19.135583][INFO]Email subject: ✅ Operation Completed Successfully
+[2025-07-06 22:21:19.144714][INFO]Connecting to SMTP server...
+[2025-07-06 22:21:19.571294][INFO]Starting TLS...
+[2025-07-06 22:21:19.981054][INFO]Logging in to SMTP...
+[2025-07-06 22:21:21.125014][INFO]Summary notification sent successfully
+[2025-07-06 22:21:21.138851][INFO]Query processing completed successfully
+[2025-07-06 22:21:21.153002][INFO]Agent process completed successfully
+[2025-07-06 22:25:56.942879][INFO]Received agent process request: show contact name fang
+[2025-07-06 22:25:56.972663][INFO]User email: None
+[2025-07-06 22:25:56.988554][INFO]Processing query: show contact name fang
+[2025-07-06 22:25:57.004734][INFO]User email: None
+[2025-07-06 22:25:57.020949][INFO]Decomposing query: show contact name fang
+[2025-07-06 22:25:57.036240][INFO]Created query prompt
+[2025-07-06 22:25:57.052434][INFO]Sending request to GROQ API
+[2025-07-06 22:25:57.067873][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:25:57.083040][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 22:25:57.907377][INFO]Raw LLM Response received
+[2025-07-06 22:25:57.919128][INFO]Response length: 227 characters
+[2025-07-06 22:25:57.929692][INFO]Received response from GROQ API
+[2025-07-06 22:25:57.938705][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "fang"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 22:25:57.949559][INFO]Created 1 tasks from query decomposition
+[2025-07-06 22:25:57.958622][INFO]Decomposed query tasks: 1
+[2025-07-06 22:25:57.968064][INFO]Requires sequential execution: False
+[2025-07-06 22:25:57.976430][INFO]Executing tasks in parallel
+[2025-07-06 22:25:57.989547][INFO]Executing task: get_contact
+[2025-07-06 22:25:58.004104][INFO]Getting contact
+[2025-07-06 22:25:58.021060][INFO]Checking For Valid Token
+[2025-07-06 22:25:58.858350][INFO]Token refreshed Succesfully
+[2025-07-06 22:25:59.367020][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:25:59.376944][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:25:59.758388][INFO]Raw LLM Response received
+[2025-07-06 22:25:59.766633][INFO]Response length: 12 characters
+[2025-07-06 22:25:59.776041][INFO]Checking For Valid Token
+[2025-07-06 22:26:00.273644][INFO]Task execution completed. Results: 1
+[2025-07-06 22:26:00.297547][INFO]Sending summary notification to: taha@synapse-consulting.com.pk
+[2025-07-06 22:26:00.321047][INFO]Attempting to send email to: taha@synapse-consulting.com.pk
+[2025-07-06 22:26:00.338030][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 22:26:00.355393][INFO]SMTP Server: smtp.gmail.com:587
+[2025-07-06 22:26:00.376690][INFO]Email subject: ✅ Operation Completed Successfully
+[2025-07-06 22:26:00.398640][INFO]Connecting to SMTP server...
+[2025-07-06 22:26:00.837450][INFO]Starting TLS...
+[2025-07-06 22:26:01.271902][INFO]Logging in to SMTP...
+[2025-07-06 22:26:02.398858][INFO]Summary notification sent successfully
+[2025-07-06 22:26:02.408603][INFO]Query processing completed successfully
+[2025-07-06 22:26:02.419813][INFO]Agent process completed successfully
+[2025-07-06 22:26:47.785800][INFO]Received agent process request: show contact name fang
+[2025-07-06 22:26:47.793993][INFO]User email: None
+[2025-07-06 22:26:47.808977][INFO]Processing query: show contact name fang
+[2025-07-06 22:26:47.819692][INFO]User email: None
+[2025-07-06 22:26:47.828422][INFO]Decomposing query: show contact name fang
+[2025-07-06 22:26:47.845327][INFO]Created query prompt
+[2025-07-06 22:26:47.860007][INFO]Sending request to GROQ API
+[2025-07-06 22:26:47.876605][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:26:47.888752][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 22:26:48.599635][INFO]Raw LLM Response received
+[2025-07-06 22:26:48.608522][INFO]Response length: 227 characters
+[2025-07-06 22:26:48.616533][INFO]Received response from GROQ API
+[2025-07-06 22:26:48.624707][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "fang"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 22:26:48.632610][INFO]Created 1 tasks from query decomposition
+[2025-07-06 22:26:48.640700][INFO]Decomposed query tasks: 1
+[2025-07-06 22:26:48.649568][INFO]Requires sequential execution: False
+[2025-07-06 22:26:48.657408][INFO]Executing tasks in parallel
+[2025-07-06 22:26:48.665358][INFO]Executing task: get_contact
+[2025-07-06 22:26:48.673710][INFO]Getting contact
+[2025-07-06 22:26:48.683745][INFO]Checking For Valid Token
+[2025-07-06 22:26:49.219994][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:26:49.228195][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:26:49.622137][INFO]Raw LLM Response received
+[2025-07-06 22:26:49.630684][INFO]Response length: 12 characters
+[2025-07-06 22:26:49.641975][INFO]Checking For Valid Token
+[2025-07-06 22:26:50.117960][INFO]Task execution completed. Results: 1
+[2025-07-06 22:26:50.136994][INFO]Sending summary notification to: taha@synapse-consulting.com.pk
+[2025-07-06 22:26:50.152500][INFO]Attempting to send email to: taha@synapse-consulting.com.pk
+[2025-07-06 22:26:50.170824][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 22:26:50.185976][INFO]SMTP Server: smtp.gmail.com:587
+[2025-07-06 22:26:50.196999][INFO]Email subject: ✅ Operation Completed Successfully
+[2025-07-06 22:26:50.212139][INFO]Connecting to SMTP server...
+[2025-07-06 22:26:50.626060][INFO]Starting TLS...
+[2025-07-06 22:26:51.040010][INFO]Logging in to SMTP...
+[2025-07-06 22:26:52.176078][INFO]Summary notification sent successfully
+[2025-07-06 22:26:52.186176][INFO]Query processing completed successfully
+[2025-07-06 22:26:52.196855][INFO]Agent process completed successfully
+[2025-07-06 22:33:33.947187][INFO]Received agent process request: show contact name fang
+[2025-07-06 22:33:33.957789][INFO]User email: None
+[2025-07-06 22:33:33.972428][INFO]Processing query: show contact name fang
+[2025-07-06 22:33:33.986933][INFO]User email: None
+[2025-07-06 22:33:34.005754][INFO]Decomposing query: show contact name fang
+[2025-07-06 22:33:34.024225][INFO]Created query prompt
+[2025-07-06 22:33:34.043423][INFO]Sending request to GROQ API
+[2025-07-06 22:33:34.061290][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:33:34.077426][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 22:33:34.892591][INFO]Raw LLM Response received
+[2025-07-06 22:33:34.905477][INFO]Response length: 227 characters
+[2025-07-06 22:33:34.917909][INFO]Received response from GROQ API
+[2025-07-06 22:33:34.931260][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "fang"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 22:33:34.944516][INFO]Created 1 tasks from query decomposition
+[2025-07-06 22:33:34.958893][INFO]Decomposed query tasks: 1
+[2025-07-06 22:33:34.972139][INFO]Requires sequential execution: False
+[2025-07-06 22:33:34.984804][INFO]Executing tasks in parallel
+[2025-07-06 22:33:34.994623][INFO]Executing task: get_contact
+[2025-07-06 22:33:35.005194][INFO]Getting contact
+[2025-07-06 22:33:35.014768][INFO]Checking For Valid Token
+[2025-07-06 22:33:35.594419][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:33:35.612940][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:33:35.981577][INFO]Raw LLM Response received
+[2025-07-06 22:33:35.992454][INFO]Response length: 12 characters
+[2025-07-06 22:33:36.003285][INFO]Checking For Valid Token
+[2025-07-06 22:33:36.550577][INFO]Task execution completed. Results: 1
+[2025-07-06 22:33:36.561046][INFO]Sending summary notification to: taha@synapse-consulting.com.pk
+[2025-07-06 22:33:36.569663][INFO]Attempting to send email to: taha@synapse-consulting.com.pk
+[2025-07-06 22:33:36.590103][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 22:33:36.599061][INFO]SMTP Server: smtp.gmail.com:587
+[2025-07-06 22:33:36.606958][INFO]Email subject: ✅ Operation Completed Successfully
+[2025-07-06 22:33:36.615066][INFO]Connecting to SMTP server...
+[2025-07-06 22:33:37.040835][INFO]Starting TLS...
+[2025-07-06 22:33:37.428177][INFO]Logging in to SMTP...
+[2025-07-06 22:33:38.530601][INFO]Summary notification sent successfully
+[2025-07-06 22:33:38.543364][INFO]Query processing completed successfully
+[2025-07-06 22:33:38.555764][INFO]Agent process completed successfully
+[2025-07-06 22:36:37.659786][INFO]CRM AI Agent Server shutting down
+[2025-07-06 22:36:39.860715][INFO]CRM AI Agent Server starting up
+[2025-07-06 22:36:39.872100][INFO]All routers included successfully
+[2025-07-06 22:36:39.883847][INFO]CORS middleware configured
+[2025-07-06 22:36:43.162618][INFO]Received agent process request: show contact name fang
+[2025-07-06 22:36:43.178396][INFO]User email: None
+[2025-07-06 22:36:43.189734][INFO]Processing query: show contact name fang
+[2025-07-06 22:36:43.206524][INFO]User email: None
+[2025-07-06 22:36:43.223668][INFO]Decomposing query: show contact name fang
+[2025-07-06 22:36:43.237469][INFO]Created query prompt
+[2025-07-06 22:36:43.250082][INFO]Sending request to GROQ API
+[2025-07-06 22:36:43.261366][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:36:43.273775][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 22:36:46.024046][INFO]Raw LLM Response received
+[2025-07-06 22:36:46.033025][INFO]Response length: 227 characters
+[2025-07-06 22:36:46.041341][INFO]Received response from GROQ API
+[2025-07-06 22:36:46.049754][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "fang"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 22:36:46.057830][INFO]Created 1 tasks from query decomposition
+[2025-07-06 22:36:46.066430][INFO]Decomposed query tasks: 1
+[2025-07-06 22:36:46.079717][INFO]Requires sequential execution: False
+[2025-07-06 22:36:46.087941][INFO]Executing tasks in parallel
+[2025-07-06 22:36:46.101040][INFO]Executing task: get_contact
+[2025-07-06 22:36:46.110007][INFO]Getting contact
+[2025-07-06 22:36:46.121986][INFO]Checking For Valid Token
+[2025-07-06 22:36:47.201676][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:36:47.212411][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:36:47.889278][INFO]Raw LLM Response received
+[2025-07-06 22:36:47.899160][INFO]Response length: 12 characters
+[2025-07-06 22:36:47.912718][INFO]Checking For Valid Token
+[2025-07-06 22:36:49.068782][INFO]Task execution completed. Results: 1
+[2025-07-06 22:36:49.080213][INFO]Sending summary notification to: taha@synapse-consulting.com.pk
+[2025-07-06 22:36:49.090544][INFO]Attempting to send email to: taha@synapse-consulting.com.pk
+[2025-07-06 22:36:49.101341][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 22:36:49.111372][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-06 22:36:49.125862][INFO]Email subject: ✅ Operation Completed Successfully
+[2025-07-06 22:36:49.141921][INFO]Connecting to SMTP server with SSL...
+[2025-07-06 22:36:49.703115][INFO]Logging in to SMTP with SSL...
+[2025-07-06 22:36:50.738686][INFO]Summary notification sent successfully
+[2025-07-06 22:36:50.749625][INFO]Query processing completed successfully
+[2025-07-06 22:36:50.759117][INFO]Agent process completed successfully
+[2025-07-06 22:42:25.438223][INFO]Received agent process request: show contact name fang
+[2025-07-06 22:42:25.457063][INFO]User email: None
+[2025-07-06 22:42:25.475387][INFO]Processing query: show contact name fang
+[2025-07-06 22:42:25.491835][INFO]User email: None
+[2025-07-06 22:42:25.505357][INFO]Decomposing query: show contact name fang
+[2025-07-06 22:42:25.517464][INFO]Created query prompt
+[2025-07-06 22:42:25.526836][INFO]Sending request to GROQ API
+[2025-07-06 22:42:25.538054][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:42:25.548873][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 22:42:26.318663][INFO]Raw LLM Response received
+[2025-07-06 22:42:26.327514][INFO]Response length: 286 characters
+[2025-07-06 22:42:26.335829][INFO]Received response from GROQ API
+[2025-07-06 22:42:26.345565][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "payload": {},
+            "contact_id": null,
+            "search_criteria": {
+                "name": "fang"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 22:42:26.355546][INFO]Created 1 tasks from query decomposition
+[2025-07-06 22:42:26.365170][INFO]Decomposed query tasks: 1
+[2025-07-06 22:42:26.373787][INFO]Requires sequential execution: False
+[2025-07-06 22:42:26.383299][INFO]Executing tasks in parallel
+[2025-07-06 22:42:26.391971][INFO]Executing task: get_contact
+[2025-07-06 22:42:26.401755][INFO]Getting contact
+[2025-07-06 22:42:26.414875][INFO]Checking For Valid Token
+[2025-07-06 22:42:28.714206][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:42:28.729284][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:42:29.438421][INFO]Raw LLM Response received
+[2025-07-06 22:42:29.451814][INFO]Response length: 12 characters
+[2025-07-06 22:42:29.468957][INFO]Checking For Valid Token
+[2025-07-06 22:42:30.455856][INFO]Task execution completed. Results: 1
+[2025-07-06 22:42:30.467124][INFO]Sending summary notification to: taha@synapse-consulting.com.pk
+[2025-07-06 22:42:30.476684][INFO]Attempting to send email to: taha@synapse-consulting.com.pk
+[2025-07-06 22:42:30.487613][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 22:42:30.496040][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-06 22:42:30.506872][INFO]Email subject: ✅ Operation Completed Successfully
+[2025-07-06 22:42:30.517621][INFO]Connecting to SMTP server with SSL...
+[2025-07-06 22:42:31.085647][INFO]Logging in to SMTP with SSL...
+[2025-07-06 22:42:32.069760][INFO]Summary notification sent successfully
+[2025-07-06 22:42:32.077757][INFO]Query processing completed successfully
+[2025-07-06 22:42:32.087793][INFO]Agent process completed successfully
+[2025-07-06 22:44:45.429861][INFO]Received agent process request: show contact name fang
+[2025-07-06 22:44:45.447989][INFO]User email: None
+[2025-07-06 22:44:45.467527][INFO]Processing query: show contact name fang
+[2025-07-06 22:44:45.484687][INFO]User email: None
+[2025-07-06 22:44:45.501853][INFO]Decomposing query: show contact name fang
+[2025-07-06 22:44:45.513522][INFO]Created query prompt
+[2025-07-06 22:44:45.535748][INFO]Sending request to GROQ API
+[2025-07-06 22:44:45.543243][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:44:45.556734][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 22:44:46.417508][INFO]Raw LLM Response received
+[2025-07-06 22:44:46.428635][INFO]Response length: 227 characters
+[2025-07-06 22:44:46.436580][INFO]Received response from GROQ API
+[2025-07-06 22:44:46.444703][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "fang"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 22:44:46.452939][INFO]Created 1 tasks from query decomposition
+[2025-07-06 22:44:46.460593][INFO]Decomposed query tasks: 1
+[2025-07-06 22:44:46.468683][INFO]Requires sequential execution: False
+[2025-07-06 22:44:46.477075][INFO]Executing tasks in parallel
+[2025-07-06 22:44:46.485634][INFO]Executing task: get_contact
+[2025-07-06 22:44:46.494181][INFO]Getting contact
+[2025-07-06 22:44:46.504586][INFO]Checking For Valid Token
+[2025-07-06 22:44:47.034425][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:44:47.044490][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:44:47.425199][INFO]Raw LLM Response received
+[2025-07-06 22:44:47.436383][INFO]Response length: 12 characters
+[2025-07-06 22:45:16.624149][INFO]CRM AI Agent Server starting up
+[2025-07-06 22:45:16.639712][INFO]All routers included successfully
+[2025-07-06 22:45:16.651103][INFO]CORS middleware configured
+[2025-07-06 22:45:20.502696][INFO]Received agent process request: show contact name fang
+[2025-07-06 22:45:20.547520][INFO]User email: None
+[2025-07-06 22:45:20.587929][INFO]Processing query: show contact name fang
+[2025-07-06 22:45:20.608275][INFO]User email: None
+[2025-07-06 22:45:20.625904][INFO]Decomposing query: show contact name fang
+[2025-07-06 22:45:20.642786][INFO]Created query prompt
+[2025-07-06 22:45:20.659868][INFO]Sending request to GROQ API
+[2025-07-06 22:45:20.676977][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:45:20.693536][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 22:45:21.677911][INFO]Raw LLM Response received
+[2025-07-06 22:45:21.691766][INFO]Response length: 227 characters
+[2025-07-06 22:45:21.704026][INFO]Received response from GROQ API
+[2025-07-06 22:45:21.715487][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "fang"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 22:45:21.727910][INFO]Created 1 tasks from query decomposition
+[2025-07-06 22:45:21.738807][INFO]Decomposed query tasks: 1
+[2025-07-06 22:45:21.751787][INFO]Requires sequential execution: False
+[2025-07-06 22:45:21.762296][INFO]Executing tasks in parallel
+[2025-07-06 22:45:21.774574][INFO]Executing task: get_contact
+[2025-07-06 22:45:21.784428][INFO]Getting contact
+[2025-07-06 22:45:21.798824][INFO]Checking For Valid Token
+[2025-07-06 22:45:22.957724][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:45:22.971028][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:45:23.378887][INFO]Raw LLM Response received
+[2025-07-06 22:45:23.389457][INFO]Response length: 12 characters
+[2025-07-06 22:45:23.402101][INFO]Checking For Valid Token
+[2025-07-06 22:45:23.958067][INFO]Task execution completed. Results: 1
+[2025-07-06 22:45:23.969161][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-06 22:45:23.980494][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-06 22:45:23.995078][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 22:45:24.009700][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-06 22:45:24.021566][INFO]Email subject: Operation Completed Successfully
+[2025-07-06 22:45:24.030523][INFO]Connecting to SMTP server...
+[2025-07-06 22:45:34.405572][INFO]Summary notification sent successfully
+[2025-07-06 22:45:34.414811][INFO]Query processing completed successfully
+[2025-07-06 22:45:34.424837][INFO]Agent process completed successfully
+[2025-07-06 22:50:10.255601][INFO]CRM AI Agent Server shutting down
+[2025-07-06 22:50:13.828038][INFO]CRM AI Agent Server starting up
+[2025-07-06 22:50:13.842661][INFO]All routers included successfully
+[2025-07-06 22:50:13.856051][INFO]CORS middleware configured
+[2025-07-06 22:50:59.423600][INFO]CRM AI Agent Server shutting down
+[2025-07-06 22:51:02.050053][INFO]CRM AI Agent Server starting up
+[2025-07-06 22:51:02.061921][INFO]All routers included successfully
+[2025-07-06 22:51:02.074466][INFO]CORS middleware configured
+[2025-07-06 22:51:52.901476][INFO]CRM AI Agent Server shutting down
+[2025-07-06 22:51:58.324607][INFO]CRM AI Agent Server starting up
+[2025-07-06 22:51:58.335577][INFO]All routers included successfully
+[2025-07-06 22:51:58.351166][INFO]CORS middleware configured
+[2025-07-06 22:52:01.563853][INFO]Received agent process request: show contact name fang
+[2025-07-06 22:52:01.580231][INFO]User email: None
+[2025-07-06 22:52:01.617006][INFO]Processing query: show contact name fang
+[2025-07-06 22:52:01.657764][INFO]User email: None
+[2025-07-06 22:52:01.712310][INFO]Decomposing query: show contact name fang
+[2025-07-06 22:52:01.728829][INFO]Created query prompt
+[2025-07-06 22:52:01.744645][INFO]Sending request to GROQ API
+[2025-07-06 22:52:01.757303][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:52:01.769619][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 22:52:02.834808][INFO]Raw LLM Response received
+[2025-07-06 22:52:02.845210][INFO]Response length: 227 characters
+[2025-07-06 22:52:02.855531][INFO]Received response from GROQ API
+[2025-07-06 22:52:02.865029][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "fang"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 22:52:02.874808][INFO]Created 1 tasks from query decomposition
+[2025-07-06 22:52:02.884294][INFO]Decomposed query tasks: 1
+[2025-07-06 22:52:02.893342][INFO]Requires sequential execution: False
+[2025-07-06 22:52:02.902359][INFO]Executing tasks in parallel
+[2025-07-06 22:52:02.913462][INFO]Executing task: get_contact
+[2025-07-06 22:52:02.923524][INFO]Getting contact
+[2025-07-06 22:52:02.937009][INFO]Checking For Valid Token
+[2025-07-06 22:52:03.743633][INFO]Token refreshed Succesfully
+[2025-07-06 22:52:04.245785][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:52:04.255662][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:52:04.671062][INFO]Raw LLM Response received
+[2025-07-06 22:52:04.685045][INFO]Response length: 12 characters
+[2025-07-06 22:52:04.704708][INFO]Checking For Valid Token
+[2025-07-06 22:52:05.225180][INFO]Task execution completed. Results: 1
+[2025-07-06 22:52:05.241433][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-06 22:52:05.260999][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-06 22:52:05.276530][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 22:52:05.289065][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-06 22:52:05.302978][INFO]Email subject: Operation Completed Successfully
+[2025-07-06 22:52:05.317489][INFO]Connecting to SMTP server with SSL...
+[2025-07-06 22:52:05.866704][INFO]Logging in to SMTP with SSL...
+[2025-07-06 22:52:06.280431][INFO]Sending message...
+[2025-07-06 22:52:07.237935][INFO]Message sent successfully!
+[2025-07-06 22:52:07.381082][INFO]Email sent successfully with ID: email_20250706_225207
+[2025-07-06 22:52:07.393654][INFO]Summary notification sent successfully
+[2025-07-06 22:52:07.402143][INFO]Query processing completed successfully
+[2025-07-06 22:52:07.412141][INFO]Agent process completed successfully
+[2025-07-06 22:54:34.547530][INFO]Received agent process request: show contact name fang and taha
+[2025-07-06 22:54:34.566942][INFO]User email: None
+[2025-07-06 22:54:34.578094][INFO]Processing query: show contact name fang and taha
+[2025-07-06 22:54:34.588637][INFO]User email: None
+[2025-07-06 22:54:34.602856][INFO]Decomposing query: show contact name fang and taha
+[2025-07-06 22:54:34.619015][INFO]Created query prompt
+[2025-07-06 22:54:34.630896][INFO]Sending request to GROQ API
+[2025-07-06 22:54:34.639596][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:54:34.652038][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 22:54:35.533760][INFO]Raw LLM Response received
+[2025-07-06 22:54:35.544999][INFO]Response length: 238 characters
+[2025-07-06 22:54:35.552434][INFO]Received response from GROQ API
+[2025-07-06 22:54:35.561723][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "names": ["Fang", "Taha"]
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 22:54:35.570344][INFO]Created 1 tasks from query decomposition
+[2025-07-06 22:54:35.580217][INFO]Decomposed query tasks: 1
+[2025-07-06 22:54:35.588040][INFO]Requires sequential execution: False
+[2025-07-06 22:54:35.597296][INFO]Executing tasks in parallel
+[2025-07-06 22:54:35.604469][INFO]Executing task: get_contact
+[2025-07-06 22:54:35.613144][INFO]Getting contact
+[2025-07-06 22:54:35.622731][INFO]Checking For Valid Token
+[2025-07-06 22:54:36.120668][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:54:36.131252][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:54:36.523643][INFO]Raw LLM Response received
+[2025-07-06 22:54:36.535978][INFO]Response length: 12 characters
+[2025-07-06 22:54:36.554604][INFO]Checking For Valid Token
+[2025-07-06 22:54:37.049150][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:54:37.059462][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:54:37.499212][INFO]Raw LLM Response received
+[2025-07-06 22:54:37.517856][INFO]Response length: 12 characters
+[2025-07-06 22:54:37.535070][INFO]Checking For Valid Token
+[2025-07-06 22:54:38.177972][INFO]Task execution completed. Results: 1
+[2025-07-06 22:54:38.188066][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-06 22:54:38.198724][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-06 22:54:38.206540][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 22:54:38.217089][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-06 22:54:38.226176][INFO]Email subject: Operation Completed Successfully
+[2025-07-06 22:54:38.235123][INFO]Connecting to SMTP server with SSL...
+[2025-07-06 22:54:38.981091][INFO]Logging in to SMTP with SSL...
+[2025-07-06 22:54:39.506442][INFO]Sending message...
+[2025-07-06 22:54:40.591439][INFO]Message sent successfully!
+[2025-07-06 22:54:40.746447][INFO]Email sent successfully with ID: email_20250706_225440
+[2025-07-06 22:54:40.765141][INFO]Summary notification sent successfully
+[2025-07-06 22:54:40.779149][INFO]Query processing completed successfully
+[2025-07-06 22:54:40.792358][INFO]Agent process completed successfully
+[2025-07-06 22:55:20.463103][INFO]Received agent process request: show contact name fang and create arshad@gmail.com
+[2025-07-06 22:55:20.479395][INFO]User email: None
+[2025-07-06 22:55:20.495424][INFO]Processing query: show contact name fang and create arshad@gmail.com
+[2025-07-06 22:55:20.510945][INFO]User email: None
+[2025-07-06 22:55:20.523710][INFO]Decomposing query: show contact name fang and create arshad@gmail.com
+[2025-07-06 22:55:20.537625][INFO]Created query prompt
+[2025-07-06 22:55:20.558026][INFO]Sending request to GROQ API
+[2025-07-06 22:55:20.572564][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:55:20.589788][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 22:55:21.555835][INFO]Raw LLM Response received
+[2025-07-06 22:55:21.566488][INFO]Response length: 370 characters
+[2025-07-06 22:55:21.576450][INFO]Received response from GROQ API
+[2025-07-06 22:55:21.585564][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "Fang"
+            }
+        },
+        {
+            "action": "create_contact",
+            "payload": {
+                "email": "arshad@gmail.com"
+            }
+        }
+    ],
+    "requires_sequential_execution": true,
+    "dependencies": {}
+}
+[2025-07-06 22:55:21.595468][INFO]Created 2 tasks from query decomposition
+[2025-07-06 22:55:21.604479][INFO]Decomposed query tasks: 2
+[2025-07-06 22:55:21.614665][INFO]Requires sequential execution: True
+[2025-07-06 22:55:21.623891][INFO]Executing tasks sequentially
+[2025-07-06 22:55:21.633896][INFO]Starting sequential execution of 2 tasks
+[2025-07-06 22:55:21.642562][INFO]Executing task 1/2: get_contact
+[2025-07-06 22:55:21.653701][INFO]Executing contact task: get_contact
+[2025-07-06 22:55:21.669402][INFO]Executing task: get_contact
+[2025-07-06 22:55:21.690999][INFO]Getting contact
+[2025-07-06 22:55:21.704097][INFO]Checking For Valid Token
+[2025-07-06 22:55:22.365609][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 22:55:22.378269][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 22:55:22.777323][INFO]Raw LLM Response received
+[2025-07-06 22:55:22.787280][INFO]Response length: 12 characters
+[2025-07-06 22:55:22.802136][INFO]Checking For Valid Token
+[2025-07-06 22:55:23.331931][INFO]Task 1 completed: True - Contact retrieved successfully
+[2025-07-06 22:55:23.347887][INFO]Added task result to context: get_contact
+[2025-07-06 22:55:23.363128][INFO]Executing task 2/2: create_contact
+[2025-07-06 22:55:23.377753][INFO]Executing contact task: create_contact
+[2025-07-06 22:55:23.391596][INFO]Executing task: create_contact
+[2025-07-06 22:55:23.403172][INFO]Creating new contact
+[2025-07-06 22:55:23.416514][INFO]Starting contact creation
+[2025-07-06 22:55:23.428468][INFO]Payload: {'email': 'arshad@gmail.com'}
+[2025-07-06 22:55:23.440475][INFO]Cleaned payload: {'email': 'arshad@gmail.com'}
+[2025-07-06 22:55:23.453641][INFO]Making API request to: http://127.0.0.1:8000/contacts/
+[2025-07-06 22:55:23.470551][INFO]Checking For Valid Token
+[2025-07-06 22:55:24.232068][INFO]API response status: 200
+[2025-07-06 22:55:24.242870][INFO]Contact created successfully: N/A
+[2025-07-06 22:55:24.253174][INFO]Sending email notification for contact creation
+[2025-07-06 22:55:24.265855][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-06 22:55:24.274805][INFO]Email type: EmailType.CONTACT_CREATED
+[2025-07-06 22:55:24.285805][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-06 22:55:24.295336][INFO]Email subject: Contact Created Successfully - New Contact
+[2025-07-06 22:55:24.304561][INFO]Connecting to SMTP server with SSL...
+[2025-07-06 22:55:24.871740][INFO]Logging in to SMTP with SSL...
+[2025-07-06 22:55:25.309879][INFO]Sending message...
+[2025-07-06 22:55:26.375816][INFO]Message sent successfully!
+[2025-07-06 22:55:26.522085][INFO]Email sent successfully with ID: email_20250706_225526
+[2025-07-06 22:55:26.537067][INFO]Email notification sent: True
+[2025-07-06 22:55:26.552511][INFO]Task 2 completed: True - Contact created successfully
+[2025-07-06 22:55:26.567303][INFO]Added task result to context: create_contact
+[2025-07-06 22:55:26.581679][INFO]Sequential execution completed. 2 tasks processed
+[2025-07-06 22:55:26.595935][INFO]Task execution completed. Results: 2
+[2025-07-06 22:55:26.610685][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-06 22:55:26.625599][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-06 22:55:26.640225][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 22:55:26.654968][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-06 22:55:26.669871][INFO]Email subject: Operation Completed Successfully
+[2025-07-06 22:55:26.685068][INFO]Connecting to SMTP server with SSL...
+[2025-07-06 22:55:27.236972][INFO]Logging in to SMTP with SSL...
+[2025-07-06 22:55:27.649950][INFO]Sending message...
+[2025-07-06 22:55:28.672646][INFO]Message sent successfully!
+[2025-07-06 22:55:28.835250][INFO]Email sent successfully with ID: email_20250706_225528
+[2025-07-06 22:55:28.846635][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-06 22:55:28.855038][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 22:55:28.864814][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-06 22:55:28.873641][INFO]Email subject: Operation Completed Successfully
+[2025-07-06 22:55:28.883453][INFO]Connecting to SMTP server with SSL...
+[2025-07-06 22:55:29.466754][INFO]Logging in to SMTP with SSL...
+[2025-07-06 22:55:29.915663][INFO]Sending message...
+[2025-07-06 22:55:30.988386][INFO]Message sent successfully!
+[2025-07-06 22:55:31.135904][INFO]Email sent successfully with ID: email_20250706_225531
+[2025-07-06 22:55:31.150815][INFO]Summary notification sent successfully
+[2025-07-06 22:55:31.165379][INFO]Query processing completed successfully
+[2025-07-06 22:55:31.180047][INFO]Agent process completed successfully
+[2025-07-06 22:58:11.730082][INFO]CRM AI Agent Server shutting down
+[2025-07-06 23:05:20.249929][INFO]CRM AI Agent Server starting up
+[2025-07-06 23:05:20.265022][INFO]All routers included successfully
+[2025-07-06 23:05:20.275875][INFO]CORS middleware configured
+[2025-07-06 23:05:40.856688][INFO]Received agent process request: show contact name fang and  arshad@gmail.com
+[2025-07-06 23:05:40.874351][INFO]User email: None
+[2025-07-06 23:05:40.891370][INFO]Processing query: show contact name fang and  arshad@gmail.com
+[2025-07-06 23:05:40.908838][INFO]User email: None
+[2025-07-06 23:05:40.923948][INFO]Decomposing query: show contact name fang and  arshad@gmail.com
+[2025-07-06 23:05:40.938710][INFO]Created query prompt
+[2025-07-06 23:05:40.951213][INFO]Sending request to GROQ API
+[2025-07-06 23:05:40.969708][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 23:05:40.985616][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 23:05:43.550536][INFO]Raw LLM Response received
+[2025-07-06 23:05:43.572514][INFO]Response length: 272 characters
+[2025-07-06 23:05:43.583399][INFO]Received response from GROQ API
+[2025-07-06 23:05:43.595681][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "Fang",
+                "email": "arshad@gmail.com"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 23:05:43.610351][INFO]Created 1 tasks from query decomposition
+[2025-07-06 23:05:43.628033][INFO]Decomposed query tasks: 1
+[2025-07-06 23:05:43.642323][INFO]Requires sequential execution: False
+[2025-07-06 23:05:43.655334][INFO]Executing tasks in parallel
+[2025-07-06 23:05:43.667502][INFO]Executing task: get_contact
+[2025-07-06 23:05:43.680415][INFO]Getting contact
+[2025-07-06 23:05:43.697732][INFO]Checking For Valid Token
+[2025-07-06 23:05:44.282578][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 23:05:44.298477][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 23:05:46.667316][INFO]Raw LLM Response received
+[2025-07-06 23:05:46.684416][INFO]Response length: 4 characters
+[2025-07-06 23:05:46.709434][INFO]Task execution completed. Results: 1
+[2025-07-06 23:05:46.725496][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-06 23:05:46.741847][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-06 23:05:46.757953][INFO]Email type: EmailType.OPERATION_FAILED
+[2025-07-06 23:05:46.774409][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-06 23:05:46.790167][INFO]Email subject: ❌ Operation Failed
+[2025-07-06 23:05:46.809601][INFO]Connecting to SMTP server with SSL...
+[2025-07-06 23:05:47.400592][INFO]Logging in to SMTP with SSL...
+[2025-07-06 23:05:47.851374][INFO]Sending message...
+[2025-07-06 23:05:48.951385][INFO]Message sent successfully!
+[2025-07-06 23:05:49.097335][INFO]Email sent successfully with ID: email_20250706_230549
+[2025-07-06 23:05:49.113166][INFO]Summary notification sent successfully
+[2025-07-06 23:05:49.128740][INFO]Query processing completed successfully
+[2025-07-06 23:05:49.144626][INFO]Agent process completed successfully
+[2025-07-06 23:06:07.659538][INFO]Received agent process request: show contact name fang
+[2025-07-06 23:06:07.673838][INFO]User email: None
+[2025-07-06 23:06:07.688559][INFO]Processing query: show contact name fang
+[2025-07-06 23:06:07.707532][INFO]User email: None
+[2025-07-06 23:06:07.723496][INFO]Decomposing query: show contact name fang
+[2025-07-06 23:06:07.741066][INFO]Created query prompt
+[2025-07-06 23:06:07.758492][INFO]Sending request to GROQ API
+[2025-07-06 23:06:07.774775][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 23:06:07.791901][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 23:06:34.079685][INFO]CRM AI Agent Server starting up
+[2025-07-06 23:06:34.091448][INFO]All routers included successfully
+[2025-07-06 23:06:34.105260][INFO]CORS middleware configured
+[2025-07-06 23:06:37.844263][INFO]Received agent process request: show contact name fang
+[2025-07-06 23:06:37.862982][INFO]User email: None
+[2025-07-06 23:06:37.881693][INFO]Processing query: show contact name fang
+[2025-07-06 23:06:37.901924][INFO]User email: None
+[2025-07-06 23:06:37.916723][INFO]Decomposing query: show contact name fang
+[2025-07-06 23:06:37.931514][INFO]Created query prompt
+[2025-07-06 23:06:37.944859][INFO]Sending request to GROQ API
+[2025-07-06 23:06:37.961583][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 23:06:37.974097][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 23:06:59.366357][INFO]Using fallback query decomposition
+[2025-07-06 23:06:59.388023][INFO]Created fallback GET_CONTACT task
+[2025-07-06 23:06:59.407420][INFO]Fallback decomposition created 1 tasks
+[2025-07-06 23:06:59.425386][INFO]Decomposed query tasks: 1
+[2025-07-06 23:06:59.438039][INFO]Requires sequential execution: True
+[2025-07-06 23:06:59.449390][INFO]Executing tasks sequentially
+[2025-07-06 23:06:59.463055][INFO]Starting sequential execution of 1 tasks
+[2025-07-06 23:06:59.474928][INFO]Executing task 1/1: get_contact
+[2025-07-06 23:06:59.490410][INFO]Executing contact task: get_contact
+[2025-07-06 23:06:59.503140][INFO]Executing task: get_contact
+[2025-07-06 23:06:59.516950][INFO]Getting contact
+[2025-07-06 23:06:59.531105][INFO]Checking For Valid Token
+[2025-07-06 23:07:00.217741][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 23:07:00.230316][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 23:07:06.827213][INFO]Raw LLM Response received
+[2025-07-06 23:07:06.835291][INFO]Response length: 12 characters
+[2025-07-06 23:07:06.848312][INFO]Checking For Valid Token
+[2025-07-06 23:07:08.138132][INFO]Task 1 completed: True - Contact retrieved successfully
+[2025-07-06 23:07:08.148251][INFO]Added task result to context: get_contact
+[2025-07-06 23:07:08.158944][INFO]Sequential execution completed. 1 tasks processed
+[2025-07-06 23:07:08.166653][INFO]Task execution completed. Results: 1
+[2025-07-06 23:07:08.176949][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-06 23:07:08.184500][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-06 23:07:08.197602][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 23:07:08.208810][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-06 23:07:08.221199][INFO]Email subject: Operation Completed Successfully
+[2025-07-06 23:07:08.234241][INFO]Connecting to SMTP server with SSL...
+[2025-07-06 23:07:08.802509][INFO]Logging in to SMTP with SSL...
+[2025-07-06 23:07:09.250846][INFO]Sending message...
+[2025-07-06 23:07:10.368753][INFO]Message sent successfully!
+[2025-07-06 23:07:10.533703][INFO]Email sent successfully with ID: email_20250706_230710
+[2025-07-06 23:07:10.550240][INFO]Summary notification sent successfully
+[2025-07-06 23:07:10.564814][INFO]Query processing completed successfully
+[2025-07-06 23:07:10.580808][INFO]Agent process completed successfully
+[2025-07-06 23:07:36.415423][INFO]Received agent process request: show contact name fang and arshad
+[2025-07-06 23:07:36.431938][INFO]User email: None
+[2025-07-06 23:07:36.444242][INFO]Processing query: show contact name fang and arshad
+[2025-07-06 23:07:36.458929][INFO]User email: None
+[2025-07-06 23:07:36.475985][INFO]Decomposing query: show contact name fang and arshad
+[2025-07-06 23:07:36.490815][INFO]Created query prompt
+[2025-07-06 23:07:36.506559][INFO]Sending request to GROQ API
+[2025-07-06 23:07:36.523699][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 23:07:36.539959][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 23:07:37.483568][INFO]Raw LLM Response received
+[2025-07-06 23:07:37.496435][INFO]Response length: 240 characters
+[2025-07-06 23:07:37.509909][INFO]Received response from GROQ API
+[2025-07-06 23:07:37.520691][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "names": ["Fang", "Arshad"]
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 23:07:37.533775][INFO]Created 1 tasks from query decomposition
+[2025-07-06 23:07:37.545406][INFO]Decomposed query tasks: 1
+[2025-07-06 23:07:37.558408][INFO]Requires sequential execution: False
+[2025-07-06 23:07:37.572443][INFO]Executing tasks in parallel
+[2025-07-06 23:07:37.592624][INFO]Executing task: get_contact
+[2025-07-06 23:07:37.609644][INFO]Getting contact
+[2025-07-06 23:07:37.621150][INFO]Checking For Valid Token
+[2025-07-06 23:07:38.363187][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 23:07:38.374424][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 23:07:43.547857][INFO]Raw LLM Response received
+[2025-07-06 23:07:43.559654][INFO]Response length: 12 characters
+[2025-07-06 23:07:43.571347][INFO]Checking For Valid Token
+[2025-07-06 23:07:46.206768][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 23:07:46.228887][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 23:08:11.141426][INFO]Raw LLM Response received
+[2025-07-06 23:08:11.165070][INFO]Response length: 12 characters
+[2025-07-06 23:08:11.188329][INFO]Checking For Valid Token
+[2025-07-06 23:08:12.364025][INFO]Task execution completed. Results: 1
+[2025-07-06 23:08:12.375808][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-06 23:08:12.385323][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-06 23:08:12.396054][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 23:08:12.403596][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-06 23:08:12.413896][INFO]Email subject: Operation Completed Successfully
+[2025-07-06 23:08:12.422650][INFO]Connecting to SMTP server with SSL...
+[2025-07-06 23:08:13.022073][INFO]Logging in to SMTP with SSL...
+[2025-07-06 23:08:13.461885][INFO]Sending message...
+[2025-07-06 23:08:14.525801][INFO]Message sent successfully!
+[2025-07-06 23:08:14.677993][INFO]Email sent successfully with ID: email_20250706_230814
+[2025-07-06 23:08:14.693992][INFO]Summary notification sent successfully
+[2025-07-06 23:08:14.710315][INFO]Query processing completed successfully
+[2025-07-06 23:08:14.726216][INFO]Agent process completed successfully
+[2025-07-06 23:08:38.638717][INFO]CRM AI Agent Server shutting down
+[2025-07-06 23:13:25.462119][INFO]CRM AI Agent Server starting up
+[2025-07-06 23:13:25.479184][INFO]All routers included successfully
+[2025-07-06 23:13:25.490261][INFO]CORS middleware configured
+[2025-07-06 23:13:30.785119][INFO]CRM AI Agent Server shutting down
+[2025-07-06 23:13:37.417419][INFO]CRM AI Agent Server starting up
+[2025-07-06 23:13:37.431510][INFO]All routers included successfully
+[2025-07-06 23:13:37.443635][INFO]CORS middleware configured
+[2025-07-06 23:13:40.103453][INFO]Received agent process request: show contact name fang and arshad
+[2025-07-06 23:13:40.118099][INFO]User email: None
+[2025-07-06 23:13:40.128749][INFO]Processing query: show contact name fang and arshad
+[2025-07-06 23:13:40.141352][INFO]User email: None
+[2025-07-06 23:13:40.154514][INFO]Decomposing query: show contact name fang and arshad
+[2025-07-06 23:13:40.168460][INFO]Created query prompt
+[2025-07-06 23:13:40.182843][INFO]Sending request to GROQ API
+[2025-07-06 23:13:40.197598][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 23:13:40.213410][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 23:13:41.455766][INFO]Raw LLM Response received
+[2025-07-06 23:13:41.470736][INFO]Response length: 240 characters
+[2025-07-06 23:13:41.486448][INFO]Received response from GROQ API
+[2025-07-06 23:13:41.501883][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "names": ["Fang", "Arshad"]
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 23:13:41.516748][INFO]Created 1 tasks from query decomposition
+[2025-07-06 23:13:41.531067][INFO]Decomposed query tasks: 1
+[2025-07-06 23:13:41.545989][INFO]Requires sequential execution: False
+[2025-07-06 23:13:41.560676][INFO]Executing tasks in parallel
+[2025-07-06 23:13:41.577557][INFO]Executing task: get_contact
+[2025-07-06 23:13:41.592075][INFO]Getting contact
+[2025-07-06 23:13:41.613866][INFO]Checking For Valid Token
+[2025-07-06 23:13:42.208558][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 23:13:42.225007][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 23:13:42.654068][INFO]Raw LLM Response received
+[2025-07-06 23:13:42.664565][INFO]Response length: 12 characters
+[2025-07-06 23:13:42.678690][INFO]Checking For Valid Token
+[2025-07-06 23:13:43.356014][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 23:13:43.371974][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-06 23:13:43.804303][INFO]Raw LLM Response received
+[2025-07-06 23:13:43.825683][INFO]Response length: 12 characters
+[2025-07-06 23:13:43.851978][INFO]Checking For Valid Token
+[2025-07-06 23:13:44.747247][INFO]Task execution completed. Results: 1
+[2025-07-06 23:13:44.759999][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-06 23:13:44.773214][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-06 23:13:44.787159][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 23:13:44.799431][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-06 23:13:44.814558][INFO]Email subject: Operation Completed Successfully
+[2025-07-06 23:13:44.829806][INFO]Connecting to SMTP server with SSL...
+[2025-07-06 23:13:45.398784][INFO]Logging in to SMTP with SSL...
+[2025-07-06 23:13:45.820111][INFO]Sending message...
+[2025-07-06 23:13:46.927610][INFO]Message sent successfully!
+[2025-07-06 23:13:47.092130][INFO]Email sent successfully with ID: email_20250706_231347
+[2025-07-06 23:13:47.101907][INFO]Summary notification sent successfully
+[2025-07-06 23:13:47.113486][INFO]Query processing completed successfully
+[2025-07-06 23:13:47.122655][INFO]Agent process completed successfully
+[2025-07-06 23:14:58.057962][INFO]CRM AI Agent Server shutting down
+[2025-07-06 23:16:43.721642][INFO]CRM AI Agent Server starting up
+[2025-07-06 23:16:43.734013][INFO]All routers included successfully
+[2025-07-06 23:16:43.744494][INFO]CORS middleware configured
+[2025-07-06 23:17:04.320929][INFO]Root endpoint accessed
+[2025-07-06 23:17:16.246658][INFO]Authorizing User
+[2025-07-06 23:17:23.868245][INFO]User Authorized
+[2025-07-06 23:17:36.652582][INFO]CRM AI Agent Server shutting down
+[2025-07-06 23:17:40.908967][INFO]CRM AI Agent Server starting up
+[2025-07-06 23:17:40.972069][INFO]All routers included successfully
+[2025-07-06 23:17:41.012666][INFO]CORS middleware configured
+[2025-07-06 23:18:04.004486][INFO]Checking For Valid Token
+[2025-07-06 23:19:15.334259][INFO]CRM AI Agent Server shutting down
+[2025-07-06 23:20:02.161227][INFO]CRM AI Agent Server starting up
+[2025-07-06 23:20:02.176919][INFO]All routers included successfully
+[2025-07-06 23:20:02.190149][INFO]CORS middleware configured
+[2025-07-06 23:22:02.011600][INFO]Root endpoint accessed
+[2025-07-06 23:22:31.792642][INFO]Root endpoint accessed
+[2025-07-06 23:24:19.271074][INFO]Root endpoint accessed
+[2025-07-06 23:27:53.025013][INFO]Authorizing User
+[2025-07-06 23:27:53.203855][INFO]CRM AI Agent Server shutting down
+[2025-07-06 23:27:55.021820][INFO]CRM AI Agent Server starting up
+[2025-07-06 23:27:55.037583][INFO]All routers included successfully
+[2025-07-06 23:27:55.060000][INFO]CORS middleware configured
+[2025-07-06 23:31:31.478574][INFO]CRM AI Agent Server shutting down
+[2025-07-06 23:31:33.359838][INFO]CRM AI Agent Server starting up
+[2025-07-06 23:31:33.371927][INFO]All routers included successfully
+[2025-07-06 23:31:33.382828][INFO]CORS middleware configured
+[2025-07-06 23:32:06.996120][INFO]Authorizing User
+[2025-07-06 23:33:40.333141][INFO]Authorizing User
+[2025-07-06 23:33:40.510940][INFO]CRM AI Agent Server shutting down
+[2025-07-06 23:33:42.540961][INFO]CRM AI Agent Server starting up
+[2025-07-06 23:33:42.562128][INFO]All routers included successfully
+[2025-07-06 23:33:42.582662][INFO]CORS middleware configured
+[2025-07-06 23:33:51.837387][INFO]Authorizing User
+[2025-07-06 23:36:47.311142][INFO]CRM AI Agent Server shutting down
+[2025-07-06 23:36:49.957092][INFO]CRM AI Agent Server starting up
+[2025-07-06 23:36:49.980945][INFO]All routers included successfully
+[2025-07-06 23:36:50.019694][INFO]CORS middleware configured
+[2025-07-06 23:36:54.047245][INFO]Authorizing User
+[2025-07-06 23:37:45.293630][INFO]Authorizing User
+[2025-07-06 23:37:52.902641][INFO]User Authorized
+[2025-07-06 23:41:47.640077][INFO]CRM AI Agent Server shutting down
+[2025-07-06 23:41:50.086406][INFO]CRM AI Agent Server starting up
+[2025-07-06 23:41:50.146115][INFO]All routers included successfully
+[2025-07-06 23:41:50.173925][INFO]CORS middleware configured
+[2025-07-06 23:44:53.265764][INFO]Authorizing User
+[2025-07-06 23:44:53.418954][INFO]CRM AI Agent Server shutting down
+[2025-07-06 23:44:55.725110][INFO]CRM AI Agent Server starting up
+[2025-07-06 23:44:55.736468][INFO]All routers included successfully
+[2025-07-06 23:44:55.747866][INFO]CORS middleware configured
+[2025-07-06 23:46:38.296566][INFO]Authorizing User
+[2025-07-06 23:47:03.077401][INFO]User Authorized
+[2025-07-06 23:47:25.539258][INFO]User Authorized
+[2025-07-06 23:52:24.320470][INFO]Authorizing User
+[2025-07-06 23:52:24.528969][INFO]CRM AI Agent Server shutting down
+[2025-07-06 23:52:26.857755][INFO]CRM AI Agent Server starting up
+[2025-07-06 23:52:26.869644][INFO]All routers included successfully
+[2025-07-06 23:52:26.882371][INFO]CORS middleware configured
+[2025-07-06 23:55:37.968418][INFO]Authorizing User
+[2025-07-06 23:55:38.168994][INFO]CRM AI Agent Server shutting down
+[2025-07-06 23:55:40.816048][INFO]CRM AI Agent Server starting up
+[2025-07-06 23:55:40.840937][INFO]All routers included successfully
+[2025-07-06 23:55:40.858320][INFO]CORS middleware configured
+[2025-07-06 23:55:48.252289][INFO]User Authorized
+[2025-07-06 23:56:58.787535][INFO]Received agent process request: Create a new contact name sara sarajhonsion@gmail.com phone number is 876534
+[2025-07-06 23:56:58.805331][INFO]User email: 
+[2025-07-06 23:56:58.816389][INFO]Processing query: Create a new contact name sara sarajhonsion@gmail.com phone number is 876534
+[2025-07-06 23:56:58.830485][INFO]User email: 
+[2025-07-06 23:56:58.842343][INFO]Decomposing query: Create a new contact name sara sarajhonsion@gmail.com phone number is 876534
+[2025-07-06 23:56:58.853191][INFO]Created query prompt
+[2025-07-06 23:56:58.864317][INFO]Sending request to GROQ API
+[2025-07-06 23:56:58.876952][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 23:56:58.889452][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 23:57:00.179770][INFO]Raw LLM Response received
+[2025-07-06 23:57:00.193127][INFO]Response length: 308 characters
+[2025-07-06 23:57:00.202946][INFO]Received response from GROQ API
+[2025-07-06 23:57:00.212290][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "create_contact",
+            "payload": {
+                "name": "sara",
+                "email": "sarajhonsion@gmail.com",
+                "phone": "876534"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 23:57:00.222091][INFO]Created 1 tasks from query decomposition
+[2025-07-06 23:57:00.235976][INFO]Decomposed query tasks: 1
+[2025-07-06 23:57:00.251428][INFO]Requires sequential execution: False
+[2025-07-06 23:57:00.263610][INFO]Executing tasks in parallel
+[2025-07-06 23:57:00.279614][INFO]Executing task: create_contact
+[2025-07-06 23:57:00.291579][INFO]Creating new contact
+[2025-07-06 23:57:00.301729][INFO]Starting contact creation
+[2025-07-06 23:57:00.314131][INFO]Payload: {'name': 'sara', 'email': 'sarajhonsion@gmail.com', 'phone': '876534'}
+[2025-07-06 23:57:00.325844][INFO]Cleaned payload: {'name': 'sara', 'email': 'sarajhonsion@gmail.com', 'phone': '876534'}
+[2025-07-06 23:57:00.339920][INFO]Making API request to: http://127.0.0.1:8000/contacts/
+[2025-07-06 23:57:00.354935][INFO]Checking For Valid Token
+[2025-07-06 23:57:01.283448][INFO]API response status: 200
+[2025-07-06 23:57:01.299967][INFO]Contact created successfully: N/A
+[2025-07-06 23:57:01.311035][INFO]Sending email notification for contact creation
+[2025-07-06 23:57:01.321947][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-06 23:57:01.331033][INFO]Email type: EmailType.CONTACT_CREATED
+[2025-07-06 23:57:01.342178][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-06 23:57:01.350892][INFO]Email subject: Contact Created Successfully - New Contact
+[2025-07-06 23:57:01.361367][INFO]Connecting to SMTP server with SSL...
+[2025-07-06 23:57:01.983708][INFO]Logging in to SMTP with SSL...
+[2025-07-06 23:57:02.427133][INFO]Sending message...
+[2025-07-06 23:57:03.581395][INFO]Message sent successfully!
+[2025-07-06 23:57:03.714090][INFO]Email sent successfully with ID: email_20250706_235703
+[2025-07-06 23:57:03.724469][INFO]Email notification sent: True
+[2025-07-06 23:57:03.733960][INFO]Task execution completed. Results: 1
+[2025-07-06 23:57:03.744764][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-06 23:57:03.754787][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-06 23:57:03.763977][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 23:57:03.776906][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-06 23:57:03.785167][INFO]Email subject: Operation Completed Successfully
+[2025-07-06 23:57:03.795301][INFO]Connecting to SMTP server with SSL...
+[2025-07-06 23:57:04.319157][INFO]Logging in to SMTP with SSL...
+[2025-07-06 23:57:04.875672][INFO]Sending message...
+[2025-07-06 23:57:05.855874][INFO]Message sent successfully!
+[2025-07-06 23:57:06.018306][INFO]Email sent successfully with ID: email_20250706_235706
+[2025-07-06 23:57:06.029164][INFO]Summary notification sent successfully
+[2025-07-06 23:57:06.042434][INFO]Query processing completed successfully
+[2025-07-06 23:57:06.054981][INFO]Agent process completed successfully
+[2025-07-06 23:57:44.722875][INFO]Received agent process request: show me all contacts
+
+[2025-07-06 23:57:44.744653][INFO]User email: 
+[2025-07-06 23:57:44.761177][INFO]Processing query: show me all contacts
+
+[2025-07-06 23:57:44.774015][INFO]User email: 
+[2025-07-06 23:57:44.796319][INFO]Decomposing query: show me all contacts
+
+[2025-07-06 23:57:44.819239][INFO]Created query prompt
+[2025-07-06 23:57:44.836673][INFO]Sending request to GROQ API
+[2025-07-06 23:57:44.848502][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-06 23:57:44.860456][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-06 23:57:46.216672][INFO]Raw LLM Response received
+[2025-07-06 23:57:46.229225][INFO]Response length: 247 characters
+[2025-07-06 23:57:46.241747][INFO]Received response from GROQ API
+[2025-07-06 23:57:46.258329][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_all_contacts",
+            "payload": {},
+            "contact_id": null,
+            "search_criteria": {}
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-06 23:57:46.270641][INFO]Created 1 tasks from query decomposition
+[2025-07-06 23:57:46.282647][INFO]Decomposed query tasks: 1
+[2025-07-06 23:57:46.296419][INFO]Requires sequential execution: False
+[2025-07-06 23:57:46.307162][INFO]Executing tasks in parallel
+[2025-07-06 23:57:46.319706][INFO]Executing task: get_all_contacts
+[2025-07-06 23:57:46.331824][INFO]Getting all contacts
+[2025-07-06 23:57:46.344273][INFO]Checking For Valid Token
+[2025-07-06 23:57:46.997082][INFO]Task execution completed. Results: 1
+[2025-07-06 23:57:47.012837][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-06 23:57:47.029508][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-06 23:57:47.046036][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-06 23:57:47.061782][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-06 23:57:47.078470][INFO]Email subject: Operation Completed Successfully
+[2025-07-06 23:57:47.093418][INFO]Connecting to SMTP server with SSL...
+[2025-07-06 23:57:47.768725][INFO]Logging in to SMTP with SSL...
+[2025-07-06 23:57:48.397809][INFO]Sending message...
+[2025-07-06 23:57:49.402196][INFO]Message sent successfully!
+[2025-07-06 23:57:49.534584][INFO]Email sent successfully with ID: email_20250706_235749
+[2025-07-06 23:57:49.547024][INFO]Summary notification sent successfully
+[2025-07-06 23:57:49.561787][INFO]Query processing completed successfully
+[2025-07-06 23:57:49.573118][INFO]Agent process completed successfully
+[2025-07-07 00:01:24.325648][INFO]Authorizing User
+[2025-07-07 00:01:24.507637][INFO]CRM AI Agent Server shutting down
+[2025-07-07 00:01:26.856987][INFO]CRM AI Agent Server starting up
+[2025-07-07 00:01:26.878397][INFO]All routers included successfully
+[2025-07-07 00:01:26.898835][INFO]CORS middleware configured
+[2025-07-07 00:01:34.706549][INFO]User Authorized
+[2025-07-07 00:01:52.783250][INFO]Received agent process request: show me all contacts
+[2025-07-07 00:01:52.809964][INFO]User email: 
+[2025-07-07 00:01:52.823429][INFO]Processing query: show me all contacts
+[2025-07-07 00:01:52.846611][INFO]User email: 
+[2025-07-07 00:01:52.863634][INFO]Decomposing query: show me all contacts
+[2025-07-07 00:01:52.883169][INFO]Created query prompt
+[2025-07-07 00:01:52.904166][INFO]Sending request to GROQ API
+[2025-07-07 00:01:52.927095][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 00:01:52.947297][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-07 00:01:53.924905][INFO]Raw LLM Response received
+[2025-07-07 00:01:53.936367][INFO]Response length: 247 characters
+[2025-07-07 00:01:53.949805][INFO]Received response from GROQ API
+[2025-07-07 00:01:53.961108][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_all_contacts",
+            "payload": {},
+            "contact_id": null,
+            "search_criteria": {}
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-07 00:01:53.972264][INFO]Created 1 tasks from query decomposition
+[2025-07-07 00:01:53.986161][INFO]Decomposed query tasks: 1
+[2025-07-07 00:01:54.004185][INFO]Requires sequential execution: False
+[2025-07-07 00:01:54.024828][INFO]Executing tasks in parallel
+[2025-07-07 00:01:54.046020][INFO]Executing task: get_all_contacts
+[2025-07-07 00:01:54.063233][INFO]Getting all contacts
+[2025-07-07 00:01:54.083740][INFO]Checking For Valid Token
+[2025-07-07 00:01:54.651389][INFO]Task execution completed. Results: 1
+[2025-07-07 00:01:54.667997][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-07 00:01:54.685338][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 00:01:54.702539][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-07 00:01:54.718811][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 00:01:54.735792][INFO]Email subject: Operation Completed Successfully
+[2025-07-07 00:01:54.755564][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 00:01:55.315609][INFO]Logging in to SMTP with SSL...
+[2025-07-07 00:01:55.732324][INFO]Sending message...
+[2025-07-07 00:01:56.777445][INFO]Message sent successfully!
+[2025-07-07 00:01:56.935086][INFO]Email sent successfully with ID: email_20250707_000156
+[2025-07-07 00:01:56.954444][INFO]Summary notification sent successfully
+[2025-07-07 00:01:56.973347][INFO]Query processing completed successfully
+[2025-07-07 00:01:56.989257][INFO]Agent process completed successfully
+[2025-07-07 00:10:04.005836][INFO]Received agent process request: show me all contacts\
+[2025-07-07 00:10:04.036629][INFO]User email: 
+[2025-07-07 00:10:04.053153][INFO]Processing query: show me all contacts\
+[2025-07-07 00:10:04.068343][INFO]User email: 
+[2025-07-07 00:10:04.086774][INFO]Decomposing query: show me all contacts\
+[2025-07-07 00:10:04.100565][INFO]Created query prompt
+[2025-07-07 00:10:04.109699][INFO]Sending request to GROQ API
+[2025-07-07 00:10:04.119656][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 00:10:04.130082][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-07 00:10:05.017954][INFO]Raw LLM Response received
+[2025-07-07 00:10:05.030119][INFO]Response length: 153 characters
+[2025-07-07 00:10:05.039913][INFO]Received response from GROQ API
+[2025-07-07 00:10:05.051151][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_all_contacts"
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-07 00:10:05.059382][INFO]Created 1 tasks from query decomposition
+[2025-07-07 00:10:05.069131][INFO]Decomposed query tasks: 1
+[2025-07-07 00:10:05.077710][INFO]Requires sequential execution: False
+[2025-07-07 00:10:05.087625][INFO]Executing tasks in parallel
+[2025-07-07 00:10:05.099751][INFO]Executing task: get_all_contacts
+[2025-07-07 00:10:05.109670][INFO]Getting all contacts
+[2025-07-07 00:11:38.821107][INFO]CRM AI Agent Server shutting down
+[2025-07-07 00:12:22.788413][INFO]CRM AI Agent Server starting up
+[2025-07-07 00:12:22.806606][INFO]All routers included successfully
+[2025-07-07 00:12:22.823386][INFO]CORS middleware configured
+[2025-07-07 00:12:41.311345][INFO]Authorizing User
+[2025-07-07 00:13:05.657641][INFO]User Authorized
+[2025-07-07 00:14:59.388243][INFO]Root endpoint accessed
+[2025-07-07 00:15:30.670201][INFO]Root endpoint accessed
+[2025-07-07 00:15:46.206409][INFO]Authorizing User
+[2025-07-07 00:15:57.848305][INFO]User Authorized
+[2025-07-07 00:17:19.466204][INFO]CRM AI Agent Server shutting down
+[2025-07-07 00:17:22.845501][INFO]CRM AI Agent Server starting up
+[2025-07-07 00:17:22.863415][INFO]All routers included successfully
+[2025-07-07 00:17:22.879111][INFO]CORS middleware configured
+[2025-07-07 00:17:29.184001][INFO]Authorizing User
+[2025-07-07 00:17:37.158661][INFO]User Authorized
+[2025-07-07 00:17:58.569862][INFO]Received agent process request: show me all contacts
+
+[2025-07-07 00:17:58.582771][INFO]User email: 
+[2025-07-07 00:17:58.597938][INFO]Processing query: show me all contacts
+
+[2025-07-07 00:17:58.609060][INFO]User email: 
+[2025-07-07 00:17:58.623445][INFO]Decomposing query: show me all contacts
+
+[2025-07-07 00:17:58.638833][INFO]Created query prompt
+[2025-07-07 00:17:58.648100][INFO]Sending request to GROQ API
+[2025-07-07 00:17:58.661405][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 00:17:58.672108][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-07 00:17:59.718140][INFO]Raw LLM Response received
+[2025-07-07 00:17:59.729621][INFO]Response length: 153 characters
+[2025-07-07 00:17:59.740691][INFO]Received response from GROQ API
+[2025-07-07 00:17:59.750705][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_all_contacts"
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-07 00:17:59.763330][INFO]Created 1 tasks from query decomposition
+[2025-07-07 00:17:59.779838][INFO]Decomposed query tasks: 1
+[2025-07-07 00:17:59.794648][INFO]Requires sequential execution: False
+[2025-07-07 00:17:59.808651][INFO]Executing tasks in parallel
+[2025-07-07 00:17:59.826399][INFO]Executing task: get_all_contacts
+[2025-07-07 00:17:59.841571][INFO]Getting all contacts
+[2025-07-07 00:17:59.855135][INFO]Checking For Valid Token
+[2025-07-07 00:18:00.394128][INFO]Task execution completed. Results: 1
+[2025-07-07 00:18:00.403204][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-07 00:18:00.413909][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 00:18:00.425417][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-07 00:18:00.435255][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 00:18:00.445142][INFO]Email subject: Operation Completed Successfully
+[2025-07-07 00:18:00.454384][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 00:18:01.038315][INFO]Logging in to SMTP with SSL...
+[2025-07-07 00:18:01.456190][INFO]Sending message...
+[2025-07-07 00:18:02.560859][INFO]Message sent successfully!
+[2025-07-07 00:18:02.701520][INFO]Email sent successfully with ID: email_20250707_001802
+[2025-07-07 00:18:02.710767][INFO]Summary notification sent successfully
+[2025-07-07 00:18:02.720114][INFO]Query processing completed successfully
+[2025-07-07 00:18:02.729681][INFO]Agent process completed successfully
+[2025-07-07 00:29:08.517156][INFO]Authorizing User
+[2025-07-07 00:29:08.709129][INFO]CRM AI Agent Server shutting down
+[2025-07-07 00:29:10.530157][INFO]CRM AI Agent Server starting up
+[2025-07-07 00:29:10.546858][INFO]All routers included successfully
+[2025-07-07 00:29:10.559124][INFO]CORS middleware configured
+[2025-07-07 00:29:20.830080][INFO]User Authorized
+[2025-07-07 00:29:50.711800][INFO]User Authorized
+[2025-07-07 00:30:06.785119][INFO]Root endpoint accessed
+[2025-07-07 00:30:38.984337][INFO]Received agent process request: show me all contacts
+[2025-07-07 00:30:39.002531][INFO]User email: 
+[2025-07-07 00:30:39.021050][INFO]Processing query: show me all contacts
+[2025-07-07 00:30:39.036431][INFO]User email: 
+[2025-07-07 00:30:39.052792][INFO]Decomposing query: show me all contacts
+[2025-07-07 00:30:39.066018][INFO]Created query prompt
+[2025-07-07 00:30:39.077437][INFO]Sending request to GROQ API
+[2025-07-07 00:30:39.094698][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 00:30:39.104315][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-07 00:30:40.210844][INFO]Raw LLM Response received
+[2025-07-07 00:30:40.220319][INFO]Response length: 247 characters
+[2025-07-07 00:30:40.231672][INFO]Received response from GROQ API
+[2025-07-07 00:30:40.240101][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_all_contacts",
+            "payload": {},
+            "contact_id": null,
+            "search_criteria": {}
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-07 00:30:40.249178][INFO]Created 1 tasks from query decomposition
+[2025-07-07 00:30:40.258654][INFO]Decomposed query tasks: 1
+[2025-07-07 00:30:40.266954][INFO]Requires sequential execution: False
+[2025-07-07 00:30:40.276943][INFO]Executing tasks in parallel
+[2025-07-07 00:30:40.291676][INFO]Executing task: get_all_contacts
+[2025-07-07 00:30:40.302718][INFO]Getting all contacts
+[2025-07-07 00:30:40.312574][INFO]Checking For Valid Token
+[2025-07-07 00:30:40.834262][INFO]Task execution completed. Results: 1
+[2025-07-07 00:30:40.843960][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-07 00:30:40.856476][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 00:30:40.865983][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-07 00:30:40.889683][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 00:30:40.903951][INFO]Email subject: Operation Completed Successfully
+[2025-07-07 00:30:40.918974][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 00:30:41.469836][INFO]Logging in to SMTP with SSL...
+[2025-07-07 00:30:41.876852][INFO]Sending message...
+[2025-07-07 00:30:42.885422][INFO]Message sent successfully!
+[2025-07-07 00:30:43.029193][INFO]Email sent successfully with ID: email_20250707_003043
+[2025-07-07 00:30:43.039666][INFO]Summary notification sent successfully
+[2025-07-07 00:30:43.047989][INFO]Query processing completed successfully
+[2025-07-07 00:30:43.057009][INFO]Agent process completed successfully
+[2025-07-07 00:30:43.068058][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 00:30:43.077460][INFO]Temperature: 0.7, Max tokens: 300
+[2025-07-07 00:30:45.878127][INFO]Raw LLM Response received
+[2025-07-07 00:30:45.892612][INFO]Response length: 788 characters
+[2025-07-07 00:36:42.697047][INFO]Received agent process request: show me all contacts
+[2025-07-07 00:36:42.722198][INFO]User email: 
+[2025-07-07 00:36:42.741004][INFO]Processing query: show me all contacts
+[2025-07-07 00:36:42.752385][INFO]User email: 
+[2025-07-07 00:36:42.764028][INFO]Decomposing query: show me all contacts
+[2025-07-07 00:36:42.776952][INFO]Created query prompt
+[2025-07-07 00:36:42.795240][INFO]Sending request to GROQ API
+[2025-07-07 00:36:42.809314][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 00:36:42.822188][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-07 00:36:43.676160][INFO]Raw LLM Response received
+[2025-07-07 00:36:43.685740][INFO]Response length: 247 characters
+[2025-07-07 00:36:43.696533][INFO]Received response from GROQ API
+[2025-07-07 00:36:43.706289][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_all_contacts",
+            "payload": {},
+            "contact_id": null,
+            "search_criteria": {}
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-07 00:36:43.716479][INFO]Created 1 tasks from query decomposition
+[2025-07-07 00:36:43.725596][INFO]Decomposed query tasks: 1
+[2025-07-07 00:36:43.734253][INFO]Requires sequential execution: False
+[2025-07-07 00:36:43.743879][INFO]Executing tasks in parallel
+[2025-07-07 00:36:43.755155][INFO]Executing task: get_all_contacts
+[2025-07-07 00:36:43.766207][INFO]Getting all contacts
+[2025-07-07 00:46:31.541017][INFO]CRM AI Agent Server shutting down
+[2025-07-07 00:59:35.960759][INFO]CRM AI Agent Server starting up
+[2025-07-07 00:59:35.981273][INFO]All routers included successfully
+[2025-07-07 00:59:35.999426][INFO]CORS middleware configured
+[2025-07-07 00:59:43.627338][INFO]Authorizing User
+[2025-07-07 00:59:54.397709][INFO]User Authorized
+[2025-07-07 01:00:08.626401][INFO]Received agent process request: show all contacts
+[2025-07-07 01:00:08.640083][INFO]User email: 
+[2025-07-07 01:00:08.660134][INFO]Processing query: show all contacts
+[2025-07-07 01:00:08.672471][INFO]User email: 
+[2025-07-07 01:00:08.686195][INFO]Decomposing query: show all contacts
+[2025-07-07 01:00:08.698917][INFO]Created query prompt
+[2025-07-07 01:00:08.712608][INFO]Sending request to GROQ API
+[2025-07-07 01:00:08.723266][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 01:00:08.739843][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-07 01:00:10.008261][INFO]Raw LLM Response received
+[2025-07-07 01:00:10.020951][INFO]Response length: 161 characters
+[2025-07-07 01:00:10.032629][INFO]Received response from GROQ API
+[2025-07-07 01:00:10.040922][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_all_contacts"
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-07 01:00:10.050818][INFO]Created 1 tasks from query decomposition
+[2025-07-07 01:00:10.059101][INFO]Decomposed query tasks: 1
+[2025-07-07 01:00:10.067912][INFO]Requires sequential execution: False
+[2025-07-07 01:00:10.077903][INFO]Executing tasks in parallel
+[2025-07-07 01:00:10.097062][INFO]Executing task: get_all_contacts
+[2025-07-07 01:00:10.115850][INFO]Getting all contacts
+[2025-07-07 01:00:10.132228][INFO]Checking For Valid Token
+[2025-07-07 01:00:10.701312][INFO]Task execution completed. Results: 1
+[2025-07-07 01:00:10.710299][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-07 01:00:10.719619][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 01:00:10.727575][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-07 01:00:10.736188][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 01:00:10.743654][INFO]Email subject: Operation Completed Successfully
+[2025-07-07 01:00:10.753347][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 01:00:11.327588][INFO]Logging in to SMTP with SSL...
+[2025-07-07 01:00:11.815339][INFO]Sending message...
+[2025-07-07 01:00:13.147484][INFO]Message sent successfully!
+[2025-07-07 01:00:13.291953][INFO]Email sent successfully with ID: email_20250707_010013
+[2025-07-07 01:00:13.302010][INFO]Summary notification sent successfully
+[2025-07-07 01:00:13.310207][INFO]Query processing completed successfully
+[2025-07-07 01:00:13.320100][INFO]Agent process completed successfully
+[2025-07-07 01:00:35.947891][INFO]Authorizing User
+[2025-07-07 01:00:46.792416][INFO]User Authorized
+[2025-07-07 01:01:14.040696][INFO]Received agent process request: show me all contacts
+[2025-07-07 01:01:14.062286][INFO]User email: 
+[2025-07-07 01:01:14.074374][INFO]Processing query: show me all contacts
+[2025-07-07 01:01:14.085207][INFO]User email: 
+[2025-07-07 01:01:14.101118][INFO]Decomposing query: show me all contacts
+[2025-07-07 01:01:14.115547][INFO]Created query prompt
+[2025-07-07 01:01:14.131216][INFO]Sending request to GROQ API
+[2025-07-07 01:01:14.141166][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 01:01:14.150710][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-07 01:01:16.141592][INFO]Raw LLM Response received
+[2025-07-07 01:01:16.151408][INFO]Response length: 255 characters
+[2025-07-07 01:01:16.160358][INFO]Received response from GROQ API
+[2025-07-07 01:01:16.171088][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_all_contacts",
+            "payload": {},
+            "contact_id": null,
+            "search_criteria": {}
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-07 01:01:16.180691][INFO]Created 1 tasks from query decomposition
+[2025-07-07 01:01:16.189600][INFO]Decomposed query tasks: 1
+[2025-07-07 01:01:16.199032][INFO]Requires sequential execution: False
+[2025-07-07 01:01:16.208110][INFO]Executing tasks in parallel
+[2025-07-07 01:01:16.218196][INFO]Executing task: get_all_contacts
+[2025-07-07 01:01:16.227385][INFO]Getting all contacts
+[2025-07-07 01:01:16.240048][INFO]Checking For Valid Token
+[2025-07-07 01:01:16.845798][INFO]Task execution completed. Results: 1
+[2025-07-07 01:01:16.855978][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-07 01:01:16.866008][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 01:01:16.874331][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-07 01:01:16.882949][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 01:01:16.891126][INFO]Email subject: Operation Completed Successfully
+[2025-07-07 01:01:16.902334][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 01:01:17.543471][INFO]Logging in to SMTP with SSL...
+[2025-07-07 01:01:17.985280][INFO]Sending message...
+[2025-07-07 01:01:19.009117][INFO]Message sent successfully!
+[2025-07-07 01:01:19.158868][INFO]Email sent successfully with ID: email_20250707_010119
+[2025-07-07 01:01:19.173638][INFO]Summary notification sent successfully
+[2025-07-07 01:01:19.188152][INFO]Query processing completed successfully
+[2025-07-07 01:01:19.202769][INFO]Agent process completed successfully
+[2025-07-07 01:01:19.229898][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 01:01:19.244532][INFO]Temperature: 0.7, Max tokens: 300
+[2025-07-07 01:01:21.013860][INFO]Raw LLM Response received
+[2025-07-07 01:01:21.025195][INFO]Response length: 775 characters
+[2025-07-07 01:02:20.852117][INFO]Received agent process request: delete fang from  contacts
+[2025-07-07 01:02:20.864328][INFO]User email: 
+[2025-07-07 01:02:20.875915][INFO]Processing query: delete fang from  contacts
+[2025-07-07 01:02:20.886743][INFO]User email: 
+[2025-07-07 01:02:20.898451][INFO]Decomposing query: delete fang from  contacts
+[2025-07-07 01:02:20.914475][INFO]Created query prompt
+[2025-07-07 01:02:20.924729][INFO]Sending request to GROQ API
+[2025-07-07 01:02:20.935461][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 01:02:20.947156][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-07 01:02:25.924729][INFO]Raw LLM Response received
+[2025-07-07 01:02:25.940678][INFO]Response length: 230 characters
+[2025-07-07 01:02:25.952118][INFO]Received response from GROQ API
+[2025-07-07 01:02:25.961439][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "delete_contact",
+            "search_criteria": {
+                "name": "fang"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-07 01:02:25.972957][INFO]Created 1 tasks from query decomposition
+[2025-07-07 01:02:25.981181][INFO]Decomposed query tasks: 1
+[2025-07-07 01:02:25.997912][INFO]Requires sequential execution: False
+[2025-07-07 01:02:26.014682][INFO]Executing tasks in parallel
+[2025-07-07 01:02:26.024945][INFO]Executing task: delete_contact
+[2025-07-07 01:02:26.035104][INFO]Processing delete contact request
+[2025-07-07 01:02:26.052073][INFO]Searching for contact to delete
+[2025-07-07 01:02:26.064392][INFO]Checking For Valid Token
+[2025-07-07 01:02:26.590613][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 01:02:26.606272][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-07 01:02:28.436198][INFO]Raw LLM Response received
+[2025-07-07 01:02:28.448630][INFO]Response length: 12 characters
+[2025-07-07 01:02:28.463535][INFO]Checking For Valid Token
+[2025-07-07 01:02:28.956053][INFO]Found single contact to delete: 163065254602
+[2025-07-07 01:02:28.971757][INFO]Checking For Valid Token
+[2025-07-07 01:02:29.573087][INFO]Checking For Valid Token
+[2025-07-07 01:02:30.340355][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 01:02:30.348779][INFO]Email type: EmailType.CONTACT_DELETED
+[2025-07-07 01:02:30.357648][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 01:02:30.366884][INFO]Email subject: Contact Deleted Successfully - Contact
+[2025-07-07 01:02:30.376492][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 01:02:30.934849][INFO]Logging in to SMTP with SSL...
+[2025-07-07 01:02:31.366835][INFO]Sending message...
+[2025-07-07 01:02:32.380702][INFO]Message sent successfully!
+[2025-07-07 01:02:32.532553][INFO]Email sent successfully with ID: email_20250707_010232
+[2025-07-07 01:02:32.543231][INFO]Task execution completed. Results: 1
+[2025-07-07 01:02:32.555347][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-07 01:02:32.563624][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 01:02:32.575302][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-07 01:02:32.586402][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 01:02:32.598184][INFO]Email subject: Operation Completed Successfully
+[2025-07-07 01:02:32.612118][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 01:02:33.181845][INFO]Logging in to SMTP with SSL...
+[2025-07-07 01:02:33.611577][INFO]Sending message...
+[2025-07-07 01:02:34.755360][INFO]Message sent successfully!
+[2025-07-07 01:02:34.901175][INFO]Email sent successfully with ID: email_20250707_010234
+[2025-07-07 01:02:34.915575][INFO]Summary notification sent successfully
+[2025-07-07 01:02:34.929744][INFO]Query processing completed successfully
+[2025-07-07 01:02:34.943771][INFO]Agent process completed successfully
+[2025-07-07 01:02:34.965715][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 01:02:34.981177][INFO]Temperature: 0.7, Max tokens: 300
+[2025-07-07 01:02:38.836938][INFO]Raw LLM Response received
+[2025-07-07 01:02:38.849293][INFO]Response length: 94 characters
+[2025-07-07 01:15:35.590862][INFO]CRM AI Agent Server shutting down
+[2025-07-07 01:25:12.014068][INFO]CRM AI Agent Server starting up
+[2025-07-07 01:25:12.034203][INFO]All routers included successfully
+[2025-07-07 01:25:12.055050][INFO]CORS middleware configured
+[2025-07-07 01:25:35.613331][INFO]Received agent process request: show contact name fang and arshad
+[2025-07-07 01:25:35.627327][INFO]User email: None
+[2025-07-07 01:25:35.649958][INFO]Processing query: show contact name fang and arshad
+[2025-07-07 01:25:35.662857][INFO]User email: None
+[2025-07-07 01:25:35.677177][INFO]Decomposing query: show contact name fang and arshad
+[2025-07-07 01:25:35.688233][INFO]Created query prompt
+[2025-07-07 01:25:35.700507][INFO]Sending request to GROQ API
+[2025-07-07 01:25:35.715889][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 01:25:35.727514][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-07 01:25:36.803723][INFO]Raw LLM Response received
+[2025-07-07 01:25:36.813875][INFO]Response length: 248 characters
+[2025-07-07 01:25:36.824212][INFO]Received response from GROQ API
+[2025-07-07 01:25:36.833407][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "names": ["Fang", "Arshad"]
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-07 01:25:36.843838][INFO]Created 1 tasks from query decomposition
+[2025-07-07 01:25:36.853044][INFO]Decomposed query tasks: 1
+[2025-07-07 01:25:36.863304][INFO]Requires sequential execution: False
+[2025-07-07 01:25:36.873889][INFO]Executing tasks in parallel
+[2025-07-07 01:25:36.894800][INFO]Executing task: get_contact
+[2025-07-07 01:25:36.913989][INFO]Getting contact
+[2025-07-07 01:25:36.946757][INFO]Checking For Valid Token
+[2025-07-07 01:25:37.488124][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 01:25:37.497383][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-07 01:25:37.927370][INFO]Raw LLM Response received
+[2025-07-07 01:25:37.936811][INFO]Response length: 4 characters
+[2025-07-07 01:25:37.946538][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 01:25:37.956310][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-07 01:25:38.565980][INFO]Raw LLM Response received
+[2025-07-07 01:25:38.574807][INFO]Response length: 12 characters
+[2025-07-07 01:25:38.587734][INFO]Checking For Valid Token
+[2025-07-07 01:25:39.746617][INFO]Task execution completed. Results: 1
+[2025-07-07 01:25:39.760103][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-07 01:25:39.775422][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 01:25:39.786196][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-07 01:25:39.798591][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 01:25:39.809448][INFO]Email subject: Operation Completed Successfully
+[2025-07-07 01:25:39.821989][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 01:25:40.421637][INFO]Logging in to SMTP with SSL...
+[2025-07-07 01:25:40.866777][INFO]Sending message...
+[2025-07-07 01:25:42.000665][INFO]Message sent successfully!
+[2025-07-07 01:25:42.160006][INFO]Email sent successfully with ID: email_20250707_012542
+[2025-07-07 01:25:42.169179][INFO]Summary notification sent successfully
+[2025-07-07 01:25:42.180254][INFO]Query processing completed successfully
+[2025-07-07 01:25:42.188831][INFO]Agent process completed successfully
+[2025-07-07 01:26:31.083918][INFO]Received agent process request: show contact name  arshad and create fang famg@gmail.com
+[2025-07-07 01:26:31.103911][INFO]User email: None
+[2025-07-07 01:26:31.120731][INFO]Processing query: show contact name  arshad and create fang famg@gmail.com
+[2025-07-07 01:26:31.131069][INFO]User email: None
+[2025-07-07 01:26:31.143709][INFO]Decomposing query: show contact name  arshad and create fang famg@gmail.com
+[2025-07-07 01:26:31.154923][INFO]Created query prompt
+[2025-07-07 01:26:31.165242][INFO]Sending request to GROQ API
+[2025-07-07 01:26:31.177356][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 01:26:31.185644][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-07 01:26:32.032091][INFO]Raw LLM Response received
+[2025-07-07 01:26:32.043598][INFO]Response length: 447 characters
+[2025-07-07 01:26:32.052715][INFO]Received response from GROQ API
+[2025-07-07 01:26:32.062698][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "arshad"
+            }
+        },
+        {
+            "action": "create_contact",
+            "payload": {
+                "email": "famg@gmail.com",
+                "firstname": "Fang",
+                "lastname": ""
+            }
+        }
+    ],
+    "requires_sequential_execution": true,
+    "dependencies": {}
+}
+[2025-07-07 01:26:32.074833][INFO]Created 2 tasks from query decomposition
+[2025-07-07 01:26:32.084980][INFO]Decomposed query tasks: 2
+[2025-07-07 01:26:32.105563][INFO]Requires sequential execution: True
+[2025-07-07 01:26:32.119682][INFO]Executing tasks sequentially
+[2025-07-07 01:26:32.146268][INFO]Starting sequential execution of 2 tasks
+[2025-07-07 01:26:32.170417][INFO]Executing task 1/2: get_contact
+[2025-07-07 01:26:32.192494][INFO]Executing contact task: get_contact
+[2025-07-07 01:26:32.217470][INFO]Executing task: get_contact
+[2025-07-07 01:26:32.243106][INFO]Getting contact
+[2025-07-07 01:26:32.261883][INFO]Checking For Valid Token
+[2025-07-07 01:26:33.001727][INFO]Token refreshed Succesfully
+[2025-07-07 01:26:33.517198][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 01:26:33.529032][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-07 01:26:33.916819][INFO]Raw LLM Response received
+[2025-07-07 01:26:33.927049][INFO]Response length: 12 characters
+[2025-07-07 01:26:33.942345][INFO]Checking For Valid Token
+[2025-07-07 01:26:34.448968][INFO]Task 1 completed: True - Contact retrieved successfully
+[2025-07-07 01:26:34.463625][INFO]Added task result to context: get_contact
+[2025-07-07 01:26:34.478396][INFO]Executing task 2/2: create_contact
+[2025-07-07 01:26:34.491263][INFO]Executing contact task: create_contact
+[2025-07-07 01:26:34.502424][INFO]Executing task: create_contact
+[2025-07-07 01:26:34.513612][INFO]Creating new contact
+[2025-07-07 01:26:34.524963][INFO]Starting contact creation
+[2025-07-07 01:26:34.534310][INFO]Payload: {'email': 'famg@gmail.com', 'firstname': 'Fang', 'lastname': ''}
+[2025-07-07 01:26:34.543886][INFO]Cleaned payload: {'email': 'famg@gmail.com', 'firstname': 'Fang', 'lastname': ''}
+[2025-07-07 01:26:34.551717][INFO]Making API request to: http://127.0.0.1:8000/contacts/
+[2025-07-07 01:26:34.564320][INFO]Checking For Valid Token
+[2025-07-07 01:26:35.360287][INFO]API response status: 200
+[2025-07-07 01:26:35.376889][INFO]Contact created successfully: N/A
+[2025-07-07 01:26:35.392083][INFO]Sending email notification for contact creation
+[2025-07-07 01:26:35.406795][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 01:26:35.421017][INFO]Email type: EmailType.CONTACT_CREATED
+[2025-07-07 01:26:35.436673][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 01:26:35.451337][INFO]Email subject: Contact Created Successfully - New Contact
+[2025-07-07 01:26:35.465605][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 01:26:36.031825][INFO]Logging in to SMTP with SSL...
+[2025-07-07 01:26:36.457628][INFO]Sending message...
+[2025-07-07 01:26:37.462764][INFO]Message sent successfully!
+[2025-07-07 01:26:37.602293][INFO]Email sent successfully with ID: email_20250707_012637
+[2025-07-07 01:26:37.613953][INFO]Email notification sent: True
+[2025-07-07 01:26:37.624673][INFO]Task 2 completed: True - Contact created successfully
+[2025-07-07 01:26:37.634384][INFO]Added task result to context: create_contact
+[2025-07-07 01:26:37.644323][INFO]Sequential execution completed. 2 tasks processed
+[2025-07-07 01:26:37.653549][INFO]Task execution completed. Results: 2
+[2025-07-07 01:26:37.664080][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-07 01:26:37.674021][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 01:26:37.682762][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-07 01:26:37.693151][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 01:26:37.706270][INFO]Email subject: Operation Completed Successfully
+[2025-07-07 01:26:37.718609][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 01:26:38.273225][INFO]Logging in to SMTP with SSL...
+[2025-07-07 01:26:38.693498][INFO]Sending message...
+[2025-07-07 01:26:39.717413][INFO]Message sent successfully!
+[2025-07-07 01:26:39.866816][INFO]Email sent successfully with ID: email_20250707_012639
+[2025-07-07 01:26:39.882045][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 01:26:39.896553][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-07 01:26:39.910982][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 01:26:39.924966][INFO]Email subject: Operation Completed Successfully
+[2025-07-07 01:26:39.939490][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 01:26:40.462715][INFO]Logging in to SMTP with SSL...
+[2025-07-07 01:26:40.873726][INFO]Sending message...
+[2025-07-07 01:26:41.866063][INFO]Message sent successfully!
+[2025-07-07 01:26:42.007300][INFO]Email sent successfully with ID: email_20250707_012641
+[2025-07-07 01:26:42.019322][INFO]Summary notification sent successfully
+[2025-07-07 01:26:42.030352][INFO]Query processing completed successfully
+[2025-07-07 01:26:42.040861][INFO]Agent process completed successfully
+[2025-07-07 01:29:07.526078][INFO]Authorizing User
+[2025-07-07 01:29:07.717940][INFO]CRM AI Agent Server shutting down
+[2025-07-07 01:29:09.704906][INFO]CRM AI Agent Server starting up
+[2025-07-07 01:29:09.719490][INFO]All routers included successfully
+[2025-07-07 01:29:09.737839][INFO]CORS middleware configured
+[2025-07-07 01:29:20.634021][INFO]User Authorized
+[2025-07-07 01:29:32.947065][INFO]Received agent process request: show me all contacts
+[2025-07-07 01:29:32.966676][INFO]User email: 
+[2025-07-07 01:29:32.989018][INFO]Processing query: show me all contacts
+[2025-07-07 01:29:33.005590][INFO]User email: 
+[2025-07-07 01:29:33.021575][INFO]Decomposing query: show me all contacts
+[2025-07-07 01:29:33.039699][INFO]Created query prompt
+[2025-07-07 01:29:33.057616][INFO]Sending request to GROQ API
+[2025-07-07 01:29:33.075307][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 01:29:33.088039][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-07 01:29:34.044239][INFO]Raw LLM Response received
+[2025-07-07 01:29:34.053871][INFO]Response length: 247 characters
+[2025-07-07 01:29:34.064201][INFO]Received response from GROQ API
+[2025-07-07 01:29:34.073219][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_all_contacts",
+            "payload": {},
+            "contact_id": null,
+            "search_criteria": {}
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-07 01:29:34.083214][INFO]Created 1 tasks from query decomposition
+[2025-07-07 01:29:34.092306][INFO]Decomposed query tasks: 1
+[2025-07-07 01:29:34.101540][INFO]Requires sequential execution: False
+[2025-07-07 01:29:34.111795][INFO]Executing tasks in parallel
+[2025-07-07 01:29:34.130078][INFO]Executing task: get_all_contacts
+[2025-07-07 01:29:34.143553][INFO]Getting all contacts
+[2025-07-07 01:29:34.165459][INFO]Checking For Valid Token
+[2025-07-07 01:29:34.661209][INFO]Task execution completed. Results: 1
+[2025-07-07 01:29:34.670250][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-07 01:29:34.679826][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 01:29:34.688149][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-07 01:29:34.697293][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 01:29:34.706582][INFO]Email subject: Operation Completed Successfully
+[2025-07-07 01:29:34.716299][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 01:29:35.324546][INFO]Logging in to SMTP with SSL...
+[2025-07-07 01:29:35.757826][INFO]Sending message...
+[2025-07-07 01:29:36.814457][INFO]Message sent successfully!
+[2025-07-07 01:29:36.964902][INFO]Email sent successfully with ID: email_20250707_012936
+[2025-07-07 01:29:36.980010][INFO]Summary notification sent successfully
+[2025-07-07 01:29:36.994826][INFO]Query processing completed successfully
+[2025-07-07 01:29:37.009734][INFO]Agent process completed successfully
+[2025-07-07 01:29:37.028974][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 01:29:37.043613][INFO]Temperature: 0.7, Max tokens: 300
+[2025-07-07 01:30:48.207568][INFO]Authorizing User
+[2025-07-07 01:31:01.492670][INFO]User Authorized
+[2025-07-07 01:31:14.230601][INFO]Received agent process request: show me all contacts
+
+[2025-07-07 01:31:14.244980][INFO]User email: 
+[2025-07-07 01:31:14.262634][INFO]Processing query: show me all contacts
+
+[2025-07-07 01:31:14.281739][INFO]User email: 
+[2025-07-07 01:31:14.299283][INFO]Decomposing query: show me all contacts
+
+[2025-07-07 01:31:14.340625][INFO]Created query prompt
+[2025-07-07 01:31:14.364999][INFO]Sending request to GROQ API
+[2025-07-07 01:31:14.387287][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 01:31:14.453462][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-07 01:31:15.403820][INFO]Raw LLM Response received
+[2025-07-07 01:31:15.419574][INFO]Response length: 247 characters
+[2025-07-07 01:31:15.434122][INFO]Received response from GROQ API
+[2025-07-07 01:31:15.450052][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_all_contacts",
+            "payload": {},
+            "contact_id": null,
+            "search_criteria": {}
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-07 01:31:15.464585][INFO]Created 1 tasks from query decomposition
+[2025-07-07 01:31:15.477953][INFO]Decomposed query tasks: 1
+[2025-07-07 01:31:15.499040][INFO]Requires sequential execution: False
+[2025-07-07 01:31:15.516444][INFO]Executing tasks in parallel
+[2025-07-07 01:31:15.532739][INFO]Executing task: get_all_contacts
+[2025-07-07 01:31:15.554107][INFO]Getting all contacts
+[2025-07-07 01:31:15.570896][INFO]Checking For Valid Token
+[2025-07-07 01:31:16.705589][INFO]Task execution completed. Results: 1
+[2025-07-07 01:31:16.720124][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-07 01:31:16.733557][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 01:31:16.745275][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-07 01:31:16.756295][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 01:31:16.772336][INFO]Email subject: Operation Completed Successfully
+[2025-07-07 01:31:16.789574][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 01:31:17.474593][INFO]Logging in to SMTP with SSL...
+[2025-07-07 01:31:17.907403][INFO]Sending message...
+[2025-07-07 01:31:18.984723][INFO]Message sent successfully!
+[2025-07-07 01:31:19.128548][INFO]Email sent successfully with ID: email_20250707_013119
+[2025-07-07 01:31:19.144365][INFO]Summary notification sent successfully
+[2025-07-07 01:31:19.160609][INFO]Query processing completed successfully
+[2025-07-07 01:31:19.174740][INFO]Agent process completed successfully
+[2025-07-07 01:39:45.802254][INFO]Authorizing User
+[2025-07-07 01:39:46.024178][INFO]CRM AI Agent Server shutting down
+[2025-07-07 01:39:48.096658][INFO]CRM AI Agent Server starting up
+[2025-07-07 01:39:48.112148][INFO]All routers included successfully
+[2025-07-07 01:39:48.123841][INFO]CORS middleware configured
+[2025-07-07 01:39:55.160870][INFO]User Authorized
+[2025-07-07 01:40:14.740951][INFO]Received agent process request: show me all contacts
+[2025-07-07 01:40:14.751648][INFO]User email: 
+[2025-07-07 01:40:14.762600][INFO]Processing query: show me all contacts
+[2025-07-07 01:40:14.772989][INFO]User email: 
+[2025-07-07 01:40:14.782466][INFO]Decomposing query: show me all contacts
+[2025-07-07 01:40:14.793858][INFO]Created query prompt
+[2025-07-07 01:40:14.806531][INFO]Sending request to GROQ API
+[2025-07-07 01:40:14.817330][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 01:40:14.833653][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-07 01:40:15.788655][INFO]Raw LLM Response received
+[2025-07-07 01:40:15.799095][INFO]Response length: 247 characters
+[2025-07-07 01:40:15.812691][INFO]Received response from GROQ API
+[2025-07-07 01:40:15.824482][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_all_contacts",
+            "payload": {},
+            "contact_id": null,
+            "search_criteria": {}
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-07 01:40:15.835844][INFO]Created 1 tasks from query decomposition
+[2025-07-07 01:40:15.846039][INFO]Decomposed query tasks: 1
+[2025-07-07 01:40:15.859875][INFO]Requires sequential execution: False
+[2025-07-07 01:40:15.872452][INFO]Executing tasks in parallel
+[2025-07-07 01:40:15.889004][INFO]Executing task: get_all_contacts
+[2025-07-07 01:40:15.903186][INFO]Getting all contacts
+[2025-07-07 01:40:15.921384][INFO]Checking For Valid Token
+[2025-07-07 01:40:16.467011][INFO]Task execution completed. Results: 1
+[2025-07-07 01:40:16.478176][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-07 01:40:16.488581][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 01:40:16.499207][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-07 01:40:16.509451][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 01:40:16.519544][INFO]Email subject: Operation Completed Successfully
+[2025-07-07 01:40:16.529341][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 01:40:17.093596][INFO]Logging in to SMTP with SSL...
+[2025-07-07 01:40:17.539224][INFO]Sending message...
+[2025-07-07 01:40:19.196178][INFO]Message sent successfully!
+[2025-07-07 01:40:19.339801][INFO]Email sent successfully with ID: email_20250707_014019
+[2025-07-07 01:40:19.349119][INFO]Summary notification sent successfully
+[2025-07-07 01:40:19.359498][INFO]Query processing completed successfully
+[2025-07-07 01:40:19.372141][INFO]Agent process completed successfully
+[2025-07-07 01:41:05.936761][INFO]CRM AI Agent Server shutting down
+[2025-07-07 02:07:33.468652][INFO]CRM AI Agent Server starting up
+[2025-07-07 02:07:33.481801][INFO]All routers included successfully
+[2025-07-07 02:07:33.492426][INFO]CORS middleware configured
+[2025-07-07 02:07:45.377606][INFO]Authorizing User
+[2025-07-07 02:08:03.641516][INFO]Authorizing User
+[2025-07-07 02:08:12.571209][INFO]User Authorized
+[2025-07-07 02:08:26.930029][INFO]Received agent process request: show me all contacts
+[2025-07-07 02:08:26.943119][INFO]User email: 
+[2025-07-07 02:08:26.954784][INFO]Processing query: show me all contacts
+[2025-07-07 02:08:26.966795][INFO]User email: 
+[2025-07-07 02:08:26.976198][INFO]Decomposing query: show me all contacts
+[2025-07-07 02:08:26.986584][INFO]Created query prompt
+[2025-07-07 02:08:26.995314][INFO]Sending request to GROQ API
+[2025-07-07 02:08:27.005525][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 02:08:27.015925][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-07 02:08:28.083834][INFO]Raw LLM Response received
+[2025-07-07 02:08:28.092098][INFO]Response length: 255 characters
+[2025-07-07 02:08:28.102073][INFO]Received response from GROQ API
+[2025-07-07 02:08:28.109787][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_all_contacts",
+            "payload": {},
+            "contact_id": null,
+            "search_criteria": {}
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-07 02:08:28.118663][INFO]Created 1 tasks from query decomposition
+[2025-07-07 02:08:28.126263][INFO]Decomposed query tasks: 1
+[2025-07-07 02:08:28.135245][INFO]Requires sequential execution: False
+[2025-07-07 02:08:28.143290][INFO]Executing tasks in parallel
+[2025-07-07 02:08:28.154028][INFO]Executing task: get_all_contacts
+[2025-07-07 02:08:28.161844][INFO]Getting all contacts
+[2025-07-07 02:08:28.172542][INFO]Checking For Valid Token
+[2025-07-07 02:08:28.693597][INFO]Task execution completed. Results: 1
+[2025-07-07 02:08:28.702663][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-07 02:08:28.709948][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 02:08:28.718845][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-07 02:08:28.726302][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 02:08:28.735411][INFO]Email subject: Operation Completed Successfully
+[2025-07-07 02:08:28.743342][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 02:08:29.354239][INFO]Logging in to SMTP with SSL...
+[2025-07-07 02:08:29.789271][INFO]Sending message...
+[2025-07-07 02:08:30.921603][INFO]Message sent successfully!
+[2025-07-07 02:08:31.063209][INFO]Email sent successfully with ID: email_20250707_020831
+[2025-07-07 02:08:31.071803][INFO]Summary notification sent successfully
+[2025-07-07 02:08:31.080871][INFO]Query processing completed successfully
+[2025-07-07 02:08:31.089583][INFO]Agent process completed successfully
+[2025-07-07 02:08:49.986438][INFO]Received agent process request: show me contacts having name taha
+[2025-07-07 02:08:49.998607][INFO]User email: 
+[2025-07-07 02:08:50.015412][INFO]Processing query: show me contacts having name taha
+[2025-07-07 02:08:50.025175][INFO]User email: 
+[2025-07-07 02:08:50.036713][INFO]Decomposing query: show me contacts having name taha
+[2025-07-07 02:08:50.048268][INFO]Created query prompt
+[2025-07-07 02:08:50.059417][INFO]Sending request to GROQ API
+[2025-07-07 02:08:50.070154][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 02:08:50.082198][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-07 02:08:50.763070][INFO]Raw LLM Response received
+[2025-07-07 02:08:50.770643][INFO]Response length: 227 characters
+[2025-07-07 02:08:50.778646][INFO]Received response from GROQ API
+[2025-07-07 02:08:50.787492][INFO]Cleaned response: {
+    "tasks": [
+        {
+            "action": "get_contact",
+            "search_criteria": {
+                "name": "taha"
+            }
+        }
+    ],
+    "requires_sequential_execution": false,
+    "dependencies": {}
+}
+[2025-07-07 02:08:50.796507][INFO]Created 1 tasks from query decomposition
+[2025-07-07 02:08:50.804088][INFO]Decomposed query tasks: 1
+[2025-07-07 02:08:50.811868][INFO]Requires sequential execution: False
+[2025-07-07 02:08:50.820073][INFO]Executing tasks in parallel
+[2025-07-07 02:08:50.828865][INFO]Executing task: get_contact
+[2025-07-07 02:08:50.836868][INFO]Getting contact
+[2025-07-07 02:08:50.847511][INFO]Checking For Valid Token
+[2025-07-07 02:08:51.358853][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 02:08:51.368381][INFO]Temperature: 0.1, Max tokens: 1000
+[2025-07-07 02:08:51.754534][INFO]Raw LLM Response received
+[2025-07-07 02:08:51.762436][INFO]Response length: 12 characters
+[2025-07-07 02:08:51.772905][INFO]Checking For Valid Token
+[2025-07-07 02:08:52.298480][INFO]Task execution completed. Results: 1
+[2025-07-07 02:08:52.308824][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-07 02:08:52.317529][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 02:08:52.325322][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-07 02:08:52.334247][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 02:08:52.341808][INFO]Email subject: Operation Completed Successfully
+[2025-07-07 02:08:52.350475][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 02:08:52.881176][INFO]Logging in to SMTP with SSL...
+[2025-07-07 02:08:53.310423][INFO]Sending message...
+[2025-07-07 02:08:54.423925][INFO]Message sent successfully!
+[2025-07-07 02:08:54.561819][INFO]Email sent successfully with ID: email_20250707_020854
+[2025-07-07 02:08:54.576431][INFO]Summary notification sent successfully
+[2025-07-07 02:08:54.591218][INFO]Query processing completed successfully
+[2025-07-07 02:08:54.605910][INFO]Agent process completed successfully
+[2025-07-07 02:10:02.954846][INFO]Received agent process request: create  contacts having name arsalan with email arsalan@gmail.com and phone number will be 999 and last name is badar
+[2025-07-07 02:10:02.967028][INFO]User email: 
+[2025-07-07 02:10:02.978016][INFO]Processing query: create  contacts having name arsalan with email arsalan@gmail.com and phone number will be 999 and last name is badar
+[2025-07-07 02:10:03.000852][INFO]User email: 
+[2025-07-07 02:10:03.015565][INFO]Decomposing query: create  contacts having name arsalan with email arsalan@gmail.com and phone number will be 999 and last name is badar
+[2025-07-07 02:10:03.034721][INFO]Created query prompt
+[2025-07-07 02:10:03.047784][INFO]Sending request to GROQ API
+[2025-07-07 02:10:03.065160][INFO]Making GROQ API request with model: llama-3.3-70b-versatile
+[2025-07-07 02:10:03.080721][INFO]Temperature: 0.3, Max tokens: 1000
+[2025-07-07 02:10:03.633684][INFO]Using fallback query decomposition
+[2025-07-07 02:10:03.642680][INFO]Created fallback CREATE_CONTACT task
+[2025-07-07 02:10:03.653257][INFO]Fallback decomposition created 1 tasks
+[2025-07-07 02:10:03.663573][INFO]Decomposed query tasks: 1
+[2025-07-07 02:10:03.676240][INFO]Requires sequential execution: True
+[2025-07-07 02:10:03.692256][INFO]Executing tasks sequentially
+[2025-07-07 02:10:03.710996][INFO]Starting sequential execution of 1 tasks
+[2025-07-07 02:10:03.730330][INFO]Executing task 1/1: create_contact
+[2025-07-07 02:10:03.747154][INFO]Executing contact task: create_contact
+[2025-07-07 02:10:03.762412][INFO]Executing task: create_contact
+[2025-07-07 02:10:03.779731][INFO]Creating new contact
+[2025-07-07 02:10:03.790360][INFO]Starting contact creation
+[2025-07-07 02:10:03.800789][INFO]Payload: {'email': 'arsalan@gmail.com', 'firstname': 'arsalan'}
+[2025-07-07 02:10:03.811771][INFO]Cleaned payload: {'email': 'arsalan@gmail.com', 'firstname': 'arsalan'}
+[2025-07-07 02:10:03.825703][INFO]Making API request to: http://127.0.0.1:8000/contacts/
+[2025-07-07 02:10:03.838616][INFO]Checking For Valid Token
+[2025-07-07 02:10:04.591500][INFO]API response status: 200
+[2025-07-07 02:10:04.603935][INFO]Contact created successfully: N/A
+[2025-07-07 02:10:04.620485][INFO]Sending email notification for contact creation
+[2025-07-07 02:10:04.637932][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 02:10:04.652884][INFO]Email type: EmailType.CONTACT_CREATED
+[2025-07-07 02:10:04.665497][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 02:10:04.682047][INFO]Email subject: Contact Created Successfully - New Contact
+[2025-07-07 02:10:04.692030][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 02:10:05.254864][INFO]Logging in to SMTP with SSL...
+[2025-07-07 02:10:05.674468][INFO]Sending message...
+[2025-07-07 02:10:06.713992][INFO]Message sent successfully!
+[2025-07-07 02:10:06.856617][INFO]Email sent successfully with ID: email_20250707_021006
+[2025-07-07 02:10:06.871236][INFO]Email notification sent: True
+[2025-07-07 02:10:06.886256][INFO]Task 1 completed: True - Contact created successfully
+[2025-07-07 02:10:06.901549][INFO]Added task result to context: create_contact
+[2025-07-07 02:10:06.916671][INFO]Sequential execution completed. 1 tasks processed
+[2025-07-07 02:10:06.932027][INFO]Task execution completed. Results: 1
+[2025-07-07 02:10:06.947062][INFO]Sending summary notification to: tahamehboob281@gmail.com
+[2025-07-07 02:10:06.962341][INFO]Attempting to send email to: tahamehboob281@gmail.com
+[2025-07-07 02:10:06.978319][INFO]Email type: EmailType.OPERATION_SUCCESS
+[2025-07-07 02:10:06.994681][INFO]SMTP Server: smtp.gmail.com:465
+[2025-07-07 02:10:07.011320][INFO]Email subject: Operation Completed Successfully
+[2025-07-07 02:10:07.028015][INFO]Connecting to SMTP server with SSL...
+[2025-07-07 02:10:07.542615][INFO]Logging in to SMTP with SSL...
+[2025-07-07 02:10:07.939480][INFO]Sending message...
+[2025-07-07 02:10:09.532300][INFO]Message sent successfully!
+[2025-07-07 02:10:09.668555][INFO]Email sent successfully with ID: email_20250707_021009
+[2025-07-07 02:10:09.684667][INFO]Summary notification sent successfully
+[2025-07-07 02:10:09.698858][INFO]Query processing completed successfully
+[2025-07-07 02:10:09.707511][INFO]Agent process completed successfully
+[2025-07-07 02:10:44.655796][INFO]CRM AI Agent Server shutting down
