@@ -762,8 +762,7 @@ This project follows **Clean Architecture** principles with proper separation of
 curl -sSL https://install.python-poetry.org | python3 -
 
 # Clone and setup project
-git clone <repository-url>
-cd hubspot-ai-agent
+git clone https://github.com/TahaDataAlchemy/CRM-AI-AGENT.git
 
 # Install dependencies
 poetry install
@@ -914,3 +913,26 @@ logs/
 
 
 **Built with ❤️ using FastAPI, Streamlit, GROQ LLM, and HubSpot API** 
+
+
+
+
+**Visuals of Streamlit and postman**
+
+**Converstaion UI**
+![image](https://github.com/user-attachments/assets/59ed5052-ce52-4a49-b1d9-379299482d22)
+![image](https://github.com/user-attachments/assets/b19d4626-fd6a-4ca4-b262-ab21ca299b4f)
+![image](https://github.com/user-attachments/assets/b738e944-9f82-4f0b-a7fe-7aa151ccab83)
+
+**postman Api Responsis**
+![image](https://github.com/user-attachments/assets/5404a589-7ad2-4adb-80d5-e6208588769c)
+![image](https://github.com/user-attachments/assets/63398ade-3701-4c4c-ac4b-e19ed76f0292)
+
+
+**APIS TO SEE FLOW OF CODE AND AUTH**
+http://localhost:8000/agent/process : all Operation performs through this of Ai-agent 
+http://localhost:8000/auth/authorize_user : this is use for authorizing user
+http://localhost:8000/auth/callback : this is redirect url
+
+
+
