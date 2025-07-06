@@ -931,8 +931,13 @@ logs/
 
 **APIS TO SEE FLOW OF CODE AND AUTH**
 http://localhost:8000/agent/process : all Operation performs through this of Ai-agent 
+
 http://localhost:8000/auth/authorize_user : this is use for authorizing user
+
 http://localhost:8000/auth/callback : this is redirect url
 
+**All apis**
 
+
+![image](https://github.com/user-attachments/assets/7c572fbc-7e9b-4d12-a8f6-2d7ab9e22bcb)
 
