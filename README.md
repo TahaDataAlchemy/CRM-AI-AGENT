@@ -839,3 +839,16 @@ http://localhost:8000/auth/callback : this is redirect url
 
 ![image](https://github.com/user-attachments/assets/7c572fbc-7e9b-4d12-a8f6-2d7ab9e22bcb)
 
+
+**Email Responses**
+
+![image](https://github.com/user-attachments/assets/ceedb31e-d047-4df1-aa92-fb5bb9252a46)
+
+![image](https://github.com/user-attachments/assets/3503e586-54b0-44a4-bcd2-01c4c5e94644)
+
+![image](https://github.com/user-attachments/assets/d10cb2dc-1ac8-42fa-a449-47575df56dce)
+
+![image](https://github.com/user-attachments/assets/8804e115-5793-41b6-abea-49656b24fd07)
+
+
+
