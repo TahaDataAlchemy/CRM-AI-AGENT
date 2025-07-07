@@ -164,10 +164,6 @@ Code/
 │           └── error.py          # Error handling utilities
 │
 ├── streamlit_app.py              # Streamlit web interface
-├── authflow.py                   # Authentication flow script
-├── ContactDataModel.py           # Contact data model definitions
-├── DealProperties.py             # Deal property definitions
-├── token.json                    # OAuth token file
 └── README.md                     # This file
 ```
 
