@@ -206,10 +206,6 @@ Code/
    SMTP_PORT=587
    SMTP_USERNAME=your_email@gmail.com
    SMTP_PASSWORD=your_app_password
-   
-   # Application Configuration
-   APP_ENV=development
-   LOG_LEVEL=INFO
    ```
 
 4. **Configure HubSpot OAuth**
