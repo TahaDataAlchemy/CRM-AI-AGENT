@@ -19,6 +19,13 @@ A sophisticated AI-powered autonomous agent system for HubSpot CRM workflow auto
 - [Features](#features)
 - [Troubleshooting](#troubleshooting)
 
+
+
+![image](https://github.com/user-attachments/assets/f7fe3c06-0269-4f0e-b4f3-55665573846a)
+
+
+
+
 ## 🎯 Overview
 
 The HubSpot AI Agent is a comprehensive CRM automation system that combines:
