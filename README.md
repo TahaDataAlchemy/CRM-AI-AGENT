@@ -2,6 +2,10 @@
 
 A sophisticated AI-powered autonomous agent system for HubSpot CRM workflow automation with a multi-agent architecture. This system enables natural language interaction with HubSpot CRM through intelligent agents that can manage contacts, deals, and send automated notifications.
 
+
+**Note: Test Backend seperately as the UI is not upto mark**
+
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
